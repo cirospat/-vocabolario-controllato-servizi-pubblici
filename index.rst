@@ -23,33 +23,33 @@ Document Metadata
 *****************
 
 
-+----------------+----------------------------------------+
-|Proprietà       |Valore                                  |
-+----------------+----------------------------------------+
-|Data di rilascio|2018/07/20                              |
-+----------------+----------------------------------------+
-|Stato           |Accettato                               |
-+----------------+----------------------------------------+
-|Versione        |1.00                                    |
-+----------------+----------------------------------------+
-|autori          |Michiel De Keyzer - PwC EU Services     |
-|                |                                        |
-|                |Florian Barthélemy - PwC EU Services    |
-+----------------+----------------------------------------+
-|Recensito da    |Nikolaos Loutas - PwC EU Services       |
-+----------------+----------------------------------------+
-|Approvato da    |Miguel Alvarez-Rodriguez, Programma ISA²|
-+----------------+----------------------------------------+
++----------------+--------------------------------------------+
+|Proprietà       |Valore                                      |
++----------------+--------------------------------------------+
+|Data di rilascio|``2018/07/20``                              |
++----------------+--------------------------------------------+
+|Stato           |``Accettato``                               |
++----------------+--------------------------------------------+
+|Versione        |``1.00``                                    |
++----------------+--------------------------------------------+
+|autori          |``Michiel De Keyzer`` - PwC EU Services     |
+|                |                                            |
+|                |``Florian Barthélemy`` - PwC EU Services    |
++----------------+--------------------------------------------+
+|Recensito da    |``Nikolaos Loutas`` - PwC EU Services       |
++----------------+--------------------------------------------+
+|Approvato da    |``Miguel Alvarez-Rodriguez``, Programma ISA²|
++----------------+--------------------------------------------+
 
-Questo rapporto è stato preparato per il programma ISA² da: Servizi UE PwC
+Questo rapporto è stato preparato per il programma ISA² da: ``Servizi UE PwC``
 
  
 
-* Fonte web del documento in lingua inglese: \ |LINK2|\   
+* Fonte web della documentazione in lingua inglese: \ |LINK2|\   
 
 * Licenza assegnata al documento: \ |LINK3|\  (attribuzione)
 
-* Nome file del documento: SC2015DI07446_D02.02_CPSV-AP-2.2_v1.00
+* Nome file del documento: \ |STYLE0|\ , disponibile anche sul \ |LINK4|\ 
 
 .. _h53a802e38134e6e105b625933255059:
 
@@ -97,14 +97,17 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
 
 ..  Note:: 
 
-    Questa pubblicazione su Read the Docs è una traduzione in italiano (attualmente in fase di implementazione) del documento denominato \ |LINK4|\ .
+    Questa pubblicazione su Read the Docs è una traduzione in italiano (attualmente in fase di implementazione) del documento denominato \ |LINK5|\ .
     
-    Creazione del documento su Read the Docs a cura di \ |LINK5|\ .
+    Creazione del documento su Read the Docs a cura di \ |LINK6|\ .
     
     Da un idea e con con la collaborazione di Francesca Gleria e Gabriele Francescotto.
 
 
 .. bottom of content
+
+
+.. |STYLE0| replace:: **SC2015DI07446_D02.02_CPSV-AP-2.2_v1.00**
 
 
 .. |REPLACE1| raw:: html
@@ -131,9 +134,13 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
 
 .. |LINK4| raw:: html
 
-    <a href="https://joinup.ec.europa.eu/solution/core-public-service-vocabulary-application-profile/releases" target="_blank">Core Public Service Vocabulary Application Profile 2.2</a>
+    <a href="https://github.com/cirospat/-vocabolario-controllato-servizi-pubblici/blob/master/SC2015DI07446_D02.02_CPSV-AP-2.2_v1.00.pdf" target="_blank">repository Github</a>
 
 .. |LINK5| raw:: html
+
+    <a href="https://joinup.ec.europa.eu/solution/core-public-service-vocabulary-application-profile/releases" target="_blank">Core Public Service Vocabulary Application Profile 2.2</a>
+
+.. |LINK6| raw:: html
 
     <a href="https://cirospat.readthedocs.io" target="_blank">Ciro Spataro</a>
 
