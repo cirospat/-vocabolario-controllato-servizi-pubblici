@@ -1396,7 +1396,7 @@ La proprietà Implementa collega una Regola alla legislazione o ai documenti pol
 .. _h75261d2612653e6d493b276a19601a47:
 
 3.15. La classe dell'agente
----------------------------
+***************************
 
 La classe Agent è qualsiasi risorsa che agisce o ha il potere di agire. Questo include persone, organizzazioni e gruppi. La classe Public Organization , definita nel Vocabolario Core Public Organization , è una sottoclasse notevole di Agent.
 
