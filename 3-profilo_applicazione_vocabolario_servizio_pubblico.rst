@@ -618,7 +618,7 @@ In altre parole, un evento aziendale raggruppa una serie di servizi pubblici che
 .. _h35e12466a55475e26669131b677653:
 
 3.5. The Life Event Class
-=========================
+*************************
 
 La classe Life Event rappresenta un evento o una situazione importante   nella vita di un cittadino in cui possono essere richiesti servizi pubblici. Nota lo scopo: un individuo incontrerà un numero qualsiasi di "eventi" nel senso generale del termine. Nel contesto di CPSV-AP, la classe Life Event rappresenta solo un evento a cui è collegato un servizio pubblico. Ad esempio, una coppia fidanzata non è un Evento di vita CPSV-AP, lo sposarsi è, poiché solo quest'ultimo ha rilevanza per i servizi pubblici.
 
@@ -633,7 +633,7 @@ La classe Life Event rappresenta un evento o una situazione importante   nel
 .. _h1f2363a4d1a1924c573a5f365715e:
 
 3.6. La classe del set di dati del servizio pubblico
-====================================================
+****************************************************
 
 Il set di dati del servizio pubblico, è una specializzazione della classe Dataset del Vocabolario del catalogo dati (DCAT)\ [#F8]_\  e eredita tutte le sue proprietà. La classe descrive i metadati di dove viene descritto il set di dati, ad esempio su un portale di servizio pubblico regionale e / o su un portale nazionale di eGovernment.
 
@@ -716,7 +716,7 @@ Questa proprietà fa riferimento a una pagina Web che fornisce l'accesso al set 
 .. _h7823527fd4930242a4a4b38e5e5777:
 
 3.7. La classe di partecipazione
-================================
+********************************
 
 Il CPSV-AP riconosce un ruolo comune connesso ai servizi pubblici, ovvero l'autorità competente (sezione 3.2.14). Tuttavia, questa semplice struttura non consente di formulare dichiarazioni su tali partecipanti, come la data di inizio e di fine di un contratto, né supporta l'inclusione di altri ruoli. La classe di partecipazione supporta questa complessità aggiuntiva se richiesta, ad esempio, la descrizione di un utente del servizio o di un fornitore di servizi. Il modello è coerente con il CPOV che a sua volta si basa sull'ontologia dell'organizzazione W3C che supporta semplicemente i casi comuni, ma consente i casi complessi ove necessario. La classe di partecipazione può essere associata alla classe Membership dell'Organizzazione Ontologia che consente di applicare relazioni più complesse e metadati più ricchi a un ruolo occupato da un determinato agente.
 
@@ -777,7 +777,7 @@ Fornisce il ruolo svolto. Questo dovrebbe essere fornito usando un vocabolario 
 .. _h4a207bb71171c7c366a7710621f201c:
 
 3.8. La classe di requisiti per il criterio
-===========================================
+*******************************************
 
 Non tutti i servizi pubblici sono necessari o utilizzabili da tutti. Ad esempio, il servizio di visto gestito da paesi europei non è necessario per i cittadini europei, ma è richiesto da alcuni cittadini di altri paesi, oppure i servizi pubblici che offrono sussidi di disoccupazione e le sovvenzioni si rivolgono a specifici gruppi sociali. Il CPSV riutilizza il Vocabolario del Core Criterion e del Core Evidence\ [#F11]_\  per questa classe. CCCEV fornisce ulteriori dettagli ma la classe Requisito criterio ha tre proprietà obbligatorie.
 
@@ -841,7 +841,7 @@ Questa proprietà rappresenta il tipo di criterio richiesto come descritto in 
 .. _h697a48716c5e4c577a633146235f96f:
 
 3.9. La classe di prova
-=======================
+***********************
 
 La classe Evidence è definita nel vocabolario Core Criterion e Core Evidence (CCCEV) come qualsiasi risorsa in grado di documentare o supportare una risposta di criterio. Contiene informazioni che dimostrano che un requisito di criterio esiste o è vero, in particolare sono utilizzate evidenze per dimostrare che un criterio specifico è soddisfatto.
 
@@ -958,7 +958,7 @@ Indica la / e lingua / e in cui deve essere fornita la prova.
 .. _h67104b5d7b20372542555d4a50417c4d:
 
 3.10. La classe di output
-=========================
+*************************
 
 I risultati possono essere qualsiasi risorsa - documento, artefatto - qualsiasi cosa prodotta dal servizio pubblico. Nel contesto di un servizio pubblico, l'output fornisce un documento ufficiale o altro artefatto dell'autorità competente ( organizzazione pubblica ) che consente / autorizza / autorizza un agente a (fare) qualcosa.
 
@@ -1039,7 +1039,7 @@ Questa proprietà rappresenta il tipo di Output definito in un vocabolario contr
 .. _h7048535b3d155645263b73c3c457a5:
 
 3.11.   La classe di costo
-==========================
+**************************
 
 La classe di costo rappresenta tutti i costi relativi all'esecuzione di un servizio pubblico che l'agente che consuma deve pagare.
 
@@ -1146,7 +1146,7 @@ Dove il costo varia a seconda del canale utilizzato, ad esempio, se l'accesso av
 .. _h2a2b3684da150562e6495073113a:
 
 3.12. La classe del canale
-==========================
+**************************
 
 La classe Channel rappresenta il mezzo attraverso il quale un agente fornisce, utilizza o interagisce in un altro modo con un servizio pubblico. Esempi tipici includono servizi online, telefono, centri di accoglienza ecc.
 
@@ -1261,7 +1261,7 @@ Questa proprietà collega un canale a informazioni su quando il canale non è�
 .. _h2e1e4f582339a4e6d5d2c37651f2842:
 
 3.13. La classe di specificazione delle ore di apertura
-=======================================================
+*******************************************************
 
 Il CPSV-AP utilizza la proprietà openingHours di schema.org (sezione 3.12.5 ) per fornire dettagli sulle operazioni regolari. La specifica delle ore di apertura\ [#F17]_\ . La classe può essere utilizzata per fornire dettagli su circostanze eccezionali, come la chiusura nei giorni festivi, che è codificata (in Turtle), quindi:
 
@@ -1292,7 +1292,7 @@ schema: validThrough "2017-01-02T09: 00Z".
 .. _h178141d7b4d1d5b6f6921717d75e:
 
 3.14. La classe regola
-======================
+**********************
 
 La classe Rule rappresenta un documento che definisce le regole, le linee guida o le procedure specifiche seguite dal Servizio pubblico. Comprende i termini di servizio, licenza e requisiti di autenticazione del servizio pubblico.
 
@@ -1475,7 +1475,7 @@ Questa proprietà rappresenta un n indirizzo relativo a un agente. L'affermazi
 .. _h6f3f6a76f485d195e4a32635f671c1d:
 
 3.16. La classe di risorse legali
-=================================
+*********************************
 
 Questa classe rappresenta la legislazione, la politica o le politiche che si celano dietro le Regole che regolano il servizio.
 
@@ -1515,7 +1515,7 @@ Questa proprietà rappresenta un'altra istanza della classe di risorse legali�
 .. _h441c404b67e1c747872b213b2316:
 
 3.17. La classe di organizzazione pubblica
-==========================================
+******************************************
 
 Il CPSV-AP riutilizza il Vocabolario Core Public Organization\ [#F21]_\  che definisce il concetto di organizzazione pubblica e proprietà e relazioni associate. Si basa in gran parte sull'ontologia dell'organizzazione W3C
 
@@ -1552,7 +1552,7 @@ Il valore di quest'ultimo dovrebbe essere un URI delle Unità territoriali ammi
 .. _h6f292043b16592a6767397b21492443:
 
 3.18. La classe del punto di contatto
-=====================================
+*************************************
 
 Questa classe rappresenta le informazioni di contatto per un servizio pubblico, canale, organizzazione pubblica , ecc. È definita nel vocabolario Core Public Organization e viene fornita come schema: Contact Point . Come il canale, un punto di contatto può avere orari di apertura regolari (sezione 3.12.5) che vengono quindi sostituiti, ad esempio, dalle festività pubbliche, utilizzando la classe di specifica Orari di apertura (sezione 3.13).
 
@@ -1569,7 +1569,7 @@ Questa classe rappresenta le informazioni di contatto per un servizio pubblico, 
 .. _h61447126c1e6f4466115919716d60:
 
 3.19. La classe di conformità
-=============================
+*****************************
 
 Questa classe rappresenta qualsiasi concetto che possa essere utilizzato per classificare il servizio pubblico e che si riferisce al servizio pubblico attraverso la proprietà è classificato da (sezione 3.2.26). Questa classe è stata aggiunta in CPSV-AP per integrare la necessità di aggiungere altri metodi di classificazione del servizio pubblico, che non sono stati definiti in modo esplicito in CPSV-AP.
 
@@ -1594,7 +1594,7 @@ Il Concetto può o non può appartenere a (membro) una certa Collezione (sezione
 .. _h7f57314f7675a7646397e6983b2159:
 
 3.20. La classe di raccolta
----------------------------
+***************************
 
 Questa classe rappresenta la Collezione a cui appartiene un Concetto (sezione 3.19 ). Raggruppare concetti diversi definisce un vocabolario controllato.
 
