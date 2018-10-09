@@ -513,7 +513,7 @@ Il Concetto è a sua volta collegato a una Collezione (sezione 3.20), che raggr
 .. _h383c25767e673f341973534b613b7c4:
 
 3.3. The Event Class
-====================
+********************
 
 This class represents an event that can be of any type that triggers, makes use of, or in some way is related to, a Public Service. It is not expected to be used directly, rather, one or other of its subclasses should be used. The properties of the class are, of course, inherited by those subclasses.
 
@@ -599,7 +599,7 @@ This property links an event directly to a public service that is related to it.
 .. _h7267416b5564e43236276d52474c6a:
 
 3.4. La classe di eventi aziendali
-==================================
+**********************************
 
 Questa classe rappresenta un evento aziendale, che è specializzato in eventi. Un evento aziendale è una situazione specifica o un evento nel ciclo di vita di un'azienda che soddisfa uno o più bisogni o obblighi (legali) di tale attività in questo specifico momento. Un Evento Aziendale richiede una serie di servizi pubblici da consegnare e consumare in modo da soddisfare le necessità aziendali o gli obblighi associati. Gli eventi aziendali sono definiti nel contesto di un determinato membro Stato .
 
