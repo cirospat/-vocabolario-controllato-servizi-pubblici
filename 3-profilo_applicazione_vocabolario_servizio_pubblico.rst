@@ -13,9 +13,7 @@ La specifica del profilo di applicazione del vocabolario del servizio pubblico p
 * L' interfaccia tra il servizio e i suoi utenti: come e quando è possibile accedervi. 
 
 
-.. admonition:: inserire figura 2
-
-    qui
+|REPLACE1|
 
 
 Figura 2. Rappresentazione grafica delle relazioni tra le classi e le proprietà del profilo completo del profilo di vocabolario del servizio pubblico Core
@@ -2353,6 +2351,10 @@ La proprietà Member , come definita in SKOS, consente di indicare i concett
 
 .. |STYLE358| replace:: **Cardinalità**
 
+
+.. |REPLACE1| raw:: html
+
+    <img src=https://raw.githubusercontent.com/cirospat/-vocabolario-controllato-servizi-pubblici/master/static/CPSV-AP_Specification%20v2.2.png />
 
 .. |LINK1| raw:: html
 
