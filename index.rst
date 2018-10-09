@@ -59,7 +59,7 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
 
 .. toctree::  
     :maxdepth: 3
-    :caption: Contenuti
+    :caption: Indice
 
     1-introduzione
     2-casi_duso
@@ -71,12 +71,22 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
     8-namespace_prefissi
     9-ringraziamenti
     10-registro_modifiche
+
+
+.. toctree::  
+    :maxdepth: 3
+    :caption: Allegati
+
     allegato1
     allegato2
     allegato3
     allegato4
     allegato5
     allegato6
+
+--------
+
+Creazione del documento su Read the Docs a cura di \ |LINK2|\ .
 
 
 .. bottom of content
@@ -92,4 +102,8 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
 .. |LINK1| raw:: html
 
     <a href="https://ec.europa.eu/isa2/solutions/core-public-service-vocabulary-application-profile-cpsv-ap_en" target="_blank">Fonte del documento</a>
+
+.. |LINK2| raw:: html
+
+    <a href="https://cirospat.readthedocs.io" target="_blank">Ciro Spataro</a>
 
