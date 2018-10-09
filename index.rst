@@ -101,7 +101,7 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
     
     Creazione del documento su Read the Docs a cura di \ |LINK5|\ .
     
-    Da un idea e con con la collaborazione di Francesca Gleria.
+    Da un idea e con con la collaborazione di Francesca Gleria e Gabriele Francescotto.
 
 
 .. bottom of content
