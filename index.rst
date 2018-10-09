@@ -7,12 +7,8 @@ D02.02 - Profilo di applicazione del vocabolario del servizio pubblico principal
 
 |REPLACE1|
 
-\ |LINK1|\ 
-
 
 |REPLACE2|
-
-SC2015DI07446
 
 .. _h209127b794c17173062a12146b3258:
 
@@ -38,10 +34,15 @@ Document Metadata
 |Approvato da    |Miguel Alvarez-Rodriguez, Programma ISA²|
 +----------------+----------------------------------------+
 
-
 Questo rapporto è stato preparato per il programma ISA² da: Servizi UE PwC
 
  
+
+* Fonte web del documento: \ |LINK1|\   
+
+* Licenza assegnata al documento: \ |LINK2|\  (attribuzione)
+
+* Nome file del documento: SC2015DI07446_D02.02_CPSV-AP-2.2_v1.00
 
 .. _h53a802e38134e6e105b625933255059:
 
@@ -86,7 +87,7 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
 
 --------
 
-Creazione del documento su Read the Docs a cura di \ |LINK2|\ .
+Creazione del documento su Read the Docs a cura di \ |LINK3|\ .
 
 
 .. bottom of content
@@ -101,9 +102,13 @@ Creazione del documento su Read the Docs a cura di \ |LINK2|\ .
 
 .. |LINK1| raw:: html
 
-    <a href="https://ec.europa.eu/isa2/solutions/core-public-service-vocabulary-application-profile-cpsv-ap_en" target="_blank">Fonte del documento</a>
+    <a href="https://ec.europa.eu/isa2/solutions/core-public-service-vocabulary-application-profile-cpsv-ap_en" target="_blank">https://ec.europa.eu/isa2/solutions/core-public-service-vocabulary-application-profile-cpsv-ap_en</a>
 
 .. |LINK2| raw:: html
+
+    <a href="https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11" target="_blank">ISA Open Metadata Licence v1.1</a>
+
+.. |LINK3| raw:: html
 
     <a href="https://cirospat.readthedocs.io" target="_blank">Ciro Spataro</a>
 
