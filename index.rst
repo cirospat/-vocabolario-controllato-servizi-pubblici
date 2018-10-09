@@ -32,7 +32,7 @@ Document Metadata
 +----------------+--------------------------------------------+
 |Versione        |``1.00``                                    |
 +----------------+--------------------------------------------+
-|autori          |``Michiel De Keyzer`` - PwC EU Services     |
+|Autori          |``Michiel De Keyzer`` - PwC EU Services     |
 |                |                                            |
 |                |``Florian Barthélemy`` - PwC EU Services    |
 +----------------+--------------------------------------------+
