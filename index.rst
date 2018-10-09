@@ -47,11 +47,6 @@ Questo rapporto è stato preparato per il programma ISA² da: Servizi UE PwC
 
 * Nome file del documento: SC2015DI07446_D02.02_CPSV-AP-2.2_v1.00
 
-
-..  Note:: 
-
-    Questa pubblicazione su Read the Docs è una traduzione in italiano, attualmente in fase di implementazione
-
 .. _h53a802e38134e6e105b625933255059:
 
 Disclaimer
@@ -95,7 +90,14 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
 
 --------
 
-Creazione del documento su Read the Docs a cura di \ |LINK3|\ .
+
+..  Note:: 
+
+    Questa pubblicazione su Read the Docs è una traduzione in italiano (attualmente in fase di implementazione) del documento denominato \ |LINK3|\ .
+    
+    Creazione del documento su Read the Docs a cura di \ |LINK4|\ .
+    
+    Da un idea e con con la collaborazione di Francesca Gleria.
 
 
 .. bottom of content
@@ -120,6 +122,10 @@ Creazione del documento su Read the Docs a cura di \ |LINK3|\ .
     <a href="https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11" target="_blank">ISA Open Metadata Licence v1.1</a>
 
 .. |LINK3| raw:: html
+
+    <a href="https://joinup.ec.europa.eu/solution/core-public-service-vocabulary-application-profile/releases" target="_blank">Core Public Service Vocabulary Application Profile 2.2</a>
+
+.. |LINK4| raw:: html
 
     <a href="https://cirospat.readthedocs.io" target="_blank">Ciro Spataro</a>
 
