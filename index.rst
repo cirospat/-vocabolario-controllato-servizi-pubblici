@@ -38,11 +38,16 @@ Questo rapporto è stato preparato per il programma ISA² da: Servizi UE PwC
 
  
 
-* Fonte web del documento: \ |LINK1|\   
+* Fonte web del documento in lingua inglese: \ |LINK1|\   
 
 * Licenza assegnata al documento: \ |LINK2|\  (attribuzione)
 
 * Nome file del documento: SC2015DI07446_D02.02_CPSV-AP-2.2_v1.00
+
+
+..  Note:: 
+
+    Questa pubblicazione su Read the Docs è una traduzione in italiano, attualmente in fase di implementazione
 
 .. _h53a802e38134e6e105b625933255059:
 
