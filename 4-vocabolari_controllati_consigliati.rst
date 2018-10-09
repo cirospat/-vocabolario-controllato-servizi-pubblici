@@ -121,7 +121,7 @@ In particolare per la lista 1\ |STYLE0|\  e 2\ |STYLE1|\  livello eventi azien
 +-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
 |                       |Settore                  |Elenco dei codici NACE\ [#F5]_\                                                                         |
 +-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|                       |Spaziale                 |MDR Continents Elenco delle autorità denominate\ [#F6]_\  , Elenco delle autorità con nome Paesi MDR    |
+|                       |Spaziale                 |MDR Continents Elenco delle autorità denominate\ [#F6]_\ , Elenco delle autorità con nome Paesi MDR     |
 +-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
 |                       |Stato                    |Vocabolario di stato ADMS\ [#F10]_\                                                                     |
 +-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
@@ -222,7 +222,7 @@ In particolare per la lista 1\ |STYLE0|\  e 2\ |STYLE1|\  livello eventi azien
 .. [#f3]  http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4
 .. [#f4]  http://publications.europa.eu/mdr/authority/language/index.html
 .. [#f5]  http://ec.europa.eu/competition/mergers/cases/index/nace_all.html
-.. [#f6]   `http://publications.europa.eu/mdr/authority/continent/index.html <http://publications.europa.eu/mdr/authority/continent/index.html>`__ 
+.. [#f6]   `http://publications.europa.eu/mdr/authority/continent/index.html <http://publications.europa.eu/mdr/authority/continent/index.html>`__  
 .. [#f7]   `http://publications.europa.eu/mdr/authority/country/ <http://publications.europa.eu/mdr/authority/country/>`__ 
 .. [#f8]   `http://publications.europa.eu/mdr/authority/place/index.html <http://publications.europa.eu/mdr/authority/place/index.html>`__ 
 .. [#f9]   `http://sws.geonames.org/ <http://sws.geonames.org/>`__ 
