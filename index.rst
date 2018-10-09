@@ -84,7 +84,7 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
 
     <img src="https://ec.europa.eu/isa2/sites/isa/files/cpsv-ap.png" /><br>
     
-    Fonte
+    Fonte del documento
 .. |REPLACE2| raw:: html
 
     <strong><span style="background-color: #247a2e; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">CPSV-AP 2.2</span></strong>
