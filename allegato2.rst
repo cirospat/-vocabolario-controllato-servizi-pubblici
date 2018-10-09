@@ -38,13 +38,13 @@ Seguendo il processo ISA e la metodologia per lo sviluppo di vocabolari core\ [#
 
 Di seguito esiste l'implementazione nota della CPSV:
 
-* BE - Governo fiammingo. Il governo fiammingo sta pilotando il CPSV (come parte del suo vocabolario OSLO\ [#F3]_\ ) per pubblicare il suo catalogo intergovernativo di prodotti e servizi
+* BE - Governo fiammingo. Il governo fiammingo sta pilotando il CPSV (come parte del suo vocabolario OSLO\ [#F3]_\ ) per pubblicare il suo \ |LINK1|\  come dati collegati.
 
-* EE - Gestione integrata del portafoglio di servizi pubblici. Il ministero degli affari economici estone ha creato un'estensione\ [#F5]_\  del CPSV per rispondere alle esigenze locali, nonché per coprire il ciclo di vita del servizio pubblico. Sono state introdotte nuove classi e proprietà per coprire le informazioni relative alla sicurezza, alla valutazione e ai servizi Web sottostanti che supportano la fornitura di un servizio pubblico. Il CPSV esteso è anche la base per il quadro estone per la gestione dinamica dei portafogli di servizi pubblici (incentrato sulla valutazione dei servizi pubblici e sulla governance del loro ciclo di vita).
+* EE - Gestione integrata del portafoglio di servizi pubblici. Il ministero degli affari economici estone ha creato un'estensione\ [#F4]_\  del CPSV per rispondere alle esigenze locali, nonché per coprire il ciclo di vita del servizio pubblico. Sono state introdotte nuove classi e proprietà per coprire le informazioni relative alla sicurezza, alla valutazione e ai servizi Web sottostanti che supportano la fornitura di un servizio pubblico. Il CPSV esteso è anche la base per il quadro estone per la gestione dinamica dei portafogli di servizi pubblici (incentrato sulla valutazione dei servizi pubblici e sulla governance del loro ciclo di vita).
 
-* FI - Mappa dei servizi per la città di Helsinki. La città di Helsinki ha descritto i servizi che offrono ai cittadini e li ha resi disponibili attraverso una mappa dei servizi\ [#F6]_\ . Permette di cercare servizi in modi diversi, localizzarli su una mappa e recuperare più informazioni su particolari servizi.
+* FI - Mappa dei servizi per la città di Helsinki. La città di Helsinki ha descritto i servizi che offrono ai cittadini e li ha resi disponibili attraverso una mappa dei servizi\ [#F5]_\ . Permette di cercare servizi in modi diversi, localizzarli su una mappa e recuperare più informazioni su particolari servizi.
 
-* Programma UE - ISA. Il pilota CPSV "Descrivi il tuo servizio pubblico una volta per pubblicare su più portali di accesso governativo"\ [#F7]_\  è un'implementazione nota del CPSV. Dimostra che il servizio pubblico di base può essere usato come un Vocabolario RDF fondamentale per omogeneizzare i dati di servizio pubblico che provengono da portali di e-government locali, regionali e nazionali. Dimostra anche che la definizione di set URI HTTP uniformi per i servizi pubblici facilita la gestione delle informazioni. Infine, l'implementazione mostra che un'infrastruttura di dati collegata può fornire accesso a dati di servizio pubblico omogeneizzati, collegati e arricchiti. Il pilota
+* Programma UE - ISA. Il pilota CPSV "Descrivi il tuo servizio pubblico una volta per pubblicare su più portali di accesso governativo"\ [#F6]_\  è un'implementazione nota del CPSV. Dimostra che il servizio pubblico di base può essere usato come un Vocabolario RDF fondamentale per omogeneizzare i dati di servizio pubblico che provengono da portali di e-government locali, regionali e nazionali. Dimostra anche che la definizione di set URI HTTP uniformi per i servizi pubblici facilita la gestione delle informazioni. Infine, l'implementazione mostra che un'infrastruttura di dati collegata può fornire accesso a dati di servizio pubblico omogeneizzati, collegati e arricchiti. Il \ |LINK2|\  e \ |LINK3|\  documentando i risultati è possibile accedere tramite Joinup.
 
 In questo lavoro, il CPSV sarà esteso per garantire che tutte le informazioni pertinenti relative agli eventi aziendali e ai servizi pubblici da PSC elettronici nazionali, regionali e / o locali possano essere acquisite.
 
@@ -54,14 +54,25 @@ In questo lavoro, il CPSV sarà esteso per garantire che tutte le informazioni p
 .. |STYLE0| replace:: **Figura 3 - Rappresentazione del diagramma CPSV del modello di dati corrente**
 
 
+.. |LINK1| raw:: html
+
+    <a href="http://www.google.com/url?q=http%3A%2F%2Fdata.vlaanderen.be%2Fdoc%2Fapplicatieprofiel%2Fdienstencataloog&sa=D&sntz=1&usg=AFQjCNF822tdefDM-5nEivmP-Dvhpfp_Xg" target="_blank">catalogo intergovernativo di prodotti e servizi</a>
+
+.. |LINK2| raw:: html
+
+    <a href="http://cpsv.testproject.eu/CPSV/" target="_blank">pilota</a>
+
+.. |LINK3| raw:: html
+
+    <a href="https://joinup.ec.europa.eu/node/63148 " target="_blank">riferire</a>
+
+
+
 .. rubric:: Footnotes
 
 .. [#f1]   `https://joinup.ec.europa.eu/asset/core_public_service/description <https://joinup.ec.europa.eu/asset/core_public_service/description>`__  
 .. [#f2]   `https://joinup.ec.europa.eu/community/semic/document/isa-deliverable-process-and-methodology-developing-core-vocabularies <https://joinup.ec.europa.eu/community/semic/document/isa-deliverable-process-and-methodology-developing-core-vocabularies>`__  
 .. [#f3]   `http://www.google.com/url?q=http%3A%2F%2Fdata.vlaanderen.be%2Fns%2Fdienst&sa=D&sntz=1&usg=AFQjCNGH7izltYOdIIDLohHJocHrmxXylw <http://www.google.com/url?q=http%3A%2F%2Fdata.vlaanderen.be%2Fns%2Fdienst&sa=D&sntz=1&usg=AFQjCNGH7izltYOdIIDLohHJocHrmxXylw>`__  
-.. [#f4]  http://www.google.com/url?q=http%3A%2F%2Fdata.vlaanderen.be%2Fdoc%2Fapplicatieprofiel%2Fdienstencataloog&sa=D&sntz=1&usg=AFQjCNF822tdefDM-5nEivmP-Dvhpfp_Xg
-.. [#f5]   `https://www.mkm.ee/sites/default/files/study_-_integrated_portfolio_management_of_public_services_-_brief_summary.pdf <https://www.mkm.ee/sites/default/files/study_-_integrated_portfolio_management_of_public_services_-_brief_summary.pdf>`__  
-.. [#f6]   `http://www.hel.fi/palvelukartta/Default.aspx?language=en&city=91 <http://www.hel.fi/palvelukartta/Default.aspx?language=en&city=91>`__  
-.. [#f7]   `https://joinup.ec.europa.eu/node/63148 <https://joinup.ec.europa.eu/node/63148>`__  
-.. [#f8]   `http://cpsv.testproject.eu/CPSV/ <http://cpsv.testproject.eu/CPSV/>`__  
-.. [#f9]   `https://joinup.ec.europa.eu/node/63148 <https://joinup.ec.europa.eu/node/63148>`__  
+.. [#f4]   `https://www.mkm.ee/sites/default/files/study_-_integrated_portfolio_management_of_public_services_-_brief_summary.pdf <https://www.mkm.ee/sites/default/files/study_-_integrated_portfolio_management_of_public_services_-_brief_summary.pdf>`__  
+.. [#f5]   `http://www.hel.fi/palvelukartta/Default.aspx?language=en&city=91 <http://www.hel.fi/palvelukartta/Default.aspx?language=en&city=91>`__  
+.. [#f6]   `https://joinup.ec.europa.eu/node/63148 <https://joinup.ec.europa.eu/node/63148>`__  
