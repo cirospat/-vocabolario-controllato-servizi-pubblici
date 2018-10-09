@@ -28,179 +28,179 @@ In particolare per la lista 1\ |STYLE0|\  e 2\ |STYLE1|\  livello eventi azien
 
 \ |STYLE3|\ 
 
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|Classe                 |Proprietà                |Vocabolario controllato                                                                                 |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|Evento                 |Genere                   |Evento aziendale                                                                                        |
-|                       |                         |                                                                                                        |
-|                       |                         |Evento della vita                                                                                       |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|Evento aziendale       |genere\ [#F1]_\          |Iniziare affari                                                                                         |
-|                       |                         |                                                                                                        |
-|                       |                         |* Registrazione di un'azienda                                                                           |
-|                       |                         |                                                                                                        |
-|                       |                         |* Richiede una licenza, un permesso o un certificato per avviare o continuare un'attività               |
-|                       |                         |                                                                                                        |
-|                       |                         |* Registrazione della proprietà intellettuale                                                           |
-|                       |                         |                                                                                                        |
-|                       |                         |* Registrazione di un ramo                                                                              |
-|                       |                         |                                                                                                        |
-|                       |                         |* Inizia una nuova attività                                                                             |
-|                       |                         |                                                                                                        |
-|                       |                         |* Finanziamento di un'azienda                                                                           |
-|                       |                         |                                                                                                        |
-|                       |                         |* Assumere un dipendente                                                                                |
-|                       |                         |                                                                                                        |
-|                       |                         |Avvio di attività transfrontaliere                                                                      |
-|                       |                         |                                                                                                        |
-|                       |                         |* Registrazione di un'attività transfrontaliera                                                         |
-|                       |                         |                                                                                                        |
-|                       |                         |* Registrazione di un ramo                                                                              |
-|                       |                         |                                                                                                        |
-|                       |                         |Facendo affari                                                                                          |
-|                       |                         |                                                                                                        |
-|                       |                         |* Finanziamento di un'azienda                                                                           |
-|                       |                         |                                                                                                        |
-|                       |                         |* Richiede una licenza, un permesso o un certificato per avviare o continuare un'attività               |
-|                       |                         |                                                                                                        |
-|                       |                         |* Registrazione della proprietà intellettuale                                                           |
-|                       |                         |                                                                                                        |
-|                       |                         |* Assumere un dipendente                                                                                |
-|                       |                         |                                                                                                        |
-|                       |                         |* Partecipare agli appalti pubblici                                                                     |
-|                       |                         |                                                                                                        |
-|                       |                         |* Notifica e segnalazione alle autorità                                                                 |
-|                       |                         |                                                                                                        |
-|                       |                         |* Inizia una nuova attività                                                                             |
-|                       |                         |                                                                                                        |
-|                       |                         |* Registrazione di un ramo                                                                              |
-|                       |                         |                                                                                                        |
-|                       |                         |* Avere problemi nel pagare i creditori                                                                 |
-|                       |                         |                                                                                                        |
-|                       |                         |Concludere affari                                                                                       |
-|                       |                         |                                                                                                        |
-|                       |                         |* Ristrutturazione di un'azienda                                                                        |
-|                       |                         |                                                                                                        |
-|                       |                         |* Scioglimento di una società                                                                           |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|Evento della vita      |Genere\ [#F2]_\          |* Avere un figlio                                                                                       |
-|                       |                         |                                                                                                        |
-|                       |                         |* Diventare un custode (sociale)                                                                        |
-|                       |                         |                                                                                                        |
-|                       |                         |* Iniziare l'educazione                                                                                 |
-|                       |                         |                                                                                                        |
-|                       |                         |* Alla ricerca di un nuovo lavoro                                                                       |
-|                       |                         |                                                                                                        |
-|                       |                         |* Perdere / lasciare un lavoro                                                                          |
-|                       |                         |                                                                                                        |
-|                       |                         |* Alla ricerca di un posto dove vivere                                                                  |
-|                       |                         |                                                                                                        |
-|                       |                         |* Modifica dello stato della relazione                                                                  |
-|                       |                         |                                                                                                        |
-|                       |                         |* Guidare un veicolo                                                                                    |
-|                       |                         |                                                                                                        |
-|                       |                         |* Viaggiare all'estero                                                                                  |
-|                       |                         |                                                                                                        |
-|                       |                         |* Trasferimenti da / verso il paese                                                                     |
-|                       |                         |                                                                                                        |
-|                       |                         |* Andare al servizio militare                                                                           |
-|                       |                         |                                                                                                        |
-|                       |                         |* Di fronte a un problema di emergenza / salute                                                         |
-|                       |                         |                                                                                                        |
-|                       |                         |* Di fronte a un crimine                                                                                |
-|                       |                         |                                                                                                        |
-|                       |                         |* La pensione                                                                                           |
-|                       |                         |                                                                                                        |
-|                       |                         |* Morte di un parente                                                                                   |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|Servizio pubblico      |Genere                   |Tassonomia COFOG\ [#F3]_\                                                                               |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|                       |Area tematica            |TBC                                                                                                     |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|                       |Linguaggio               |Elenco delle autorità denominate nelle lingue dell'Ufficio delle pubblicazioni europee (NAL)\ [#F4]_\   |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|                       |Settore                  |Elenco dei codici NACE\ [#F5]_\                                                                         |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|                       |Spaziale                 |MDR Continents Elenco delle autorità denominate\ [#F6]_\ , Elenco delle autorità con nome Paesi MDR     |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|                       |Stato                    |Vocabolario di stato ADMS\ [#F10]_\                                                                     |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|Partecipazione         |Ruolo                    |TBC                                                                                                     |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|Criterion Requirement  |genere                   |TBC                                                                                                     |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|Prova                  |genere                   |TBC                                                                                                     |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|                       |linguaggio               |Elenco delle autorità denominate nelle lingue dell'Ufficio delle pubblicazioni europee (NAL)\ [#F11]_\  |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|Produzione             |genere\ [#F12]_\         |* Dichiarazione                                                                                         |
-|                       |                         |                                                                                                        |
-|                       |                         |* Oggetto fisico                                                                                        |
-|                       |                         |                                                                                                        |
-|                       |                         |* Codice                                                                                                |
-|                       |                         |                                                                                                        |
-|                       |                         |* Obbligo finanziario                                                                                   |
-|                       |                         |                                                                                                        |
-|                       |                         |* Beneficio finanziario                                                                                 |
-|                       |                         |                                                                                                        |
-|                       |                         |* Riconoscimento                                                                                        |
-|                       |                         |                                                                                                        |
-|                       |                         |* Permesso                                                                                              |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|Costo                  |Moneta                   |Elenco delle autorità nominate dall'Ufficio delle pubblicazioni europee (NAL)\ [#F13]_\                 |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|Canale                 |genere                   |* E-mail                                                                                                |
-|                       |                         |                                                                                                        |
-|                       |                         |* Homepage                                                                                              |
-|                       |                         |                                                                                                        |
-|                       |                         |* Fax                                                                                                   |
-|                       |                         |                                                                                                        |
-|                       |                         |* Assistente                                                                                            |
-|                       |                         |                                                                                                        |
-|                       |                         |* Telefono                                                                                              |
-|                       |                         |                                                                                                        |
-|                       |                         |* App per dispositivi mobili                                                                            |
-|                       |                         |                                                                                                        |
-|                       |                         |* Tv digitale                                                                                           |
-|                       |                         |                                                                                                        |
-|                       |                         |* posta                                                                                                 |
-|                       |                         |                                                                                                        |
-|                       |                         |* Servizio di assistenza                                                                                |
-|                       |                         |                                                                                                        |
-|                       |                         |* Posizione del cliente                                                                                 |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|Regola                 |linguaggio               |Elenco delle autorità denominate nelle lingue dell'Ufficio delle pubblicazioni europee (NAL)\ [#F14]_\  |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|Quadro formale         |linguaggio               |Elenco delle autorità denominate nelle lingue dell'Ufficio delle pubblicazioni europee (NAL)\ [#F15]_\  |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|                       |Stato                    |* Identificatore della legislazione europea\ [#F16]_\ :                                                 |
-|                       |                         |                                                                                                        |
-|                       |                         |* vigente                                                                                               |
-|                       |                         |                                                                                                        |
-|                       |                         |* non in vigore                                                                                         |
-|                       |                         |                                                                                                        |
-|                       |                         |* parzialmente applicabile                                                                              |
-|                       |                         |                                                                                                        |
-|                       |                         |* implicitamente revocato                                                                               |
-|                       |                         |                                                                                                        |
-|                       |                         |* esplicitamente revocato                                                                               |
-|                       |                         |                                                                                                        |
-|                       |                         |* abrogato                                                                                              |
-|                       |                         |                                                                                                        |
-|                       |                         |* scaduto                                                                                               |
-|                       |                         |                                                                                                        |
-|                       |                         |* sospeso                                                                                               |
-|                       |                         |                                                                                                        |
-|                       |                         |* altro                                                                                                 |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|                       |Soggetto                 |Domini Eurovoc\ [#F17]_\                                                                                |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|                       |Applicazione territoriale|Tassonomia NUTS\ [#F18]_\                                                                               |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|                       |genere                   |Tipi di risorse Named Authority Lists (NAL)\ [#F19]_\                                                   |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-|Organizzazione pubblica|Spaziale                 |MDR Continents Elenco delle autorità denominate\ [#F20]_\  , Elenco delle autorità con nome Paesi MDR   |
-+-----------------------+-------------------------+--------------------------------------------------------------------------------------------------------+
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Classe                 |Proprietà                |Vocabolario controllato                                                                                                                                              |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Evento                 |Genere                   |Evento aziendale                                                                                                                                                     |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |Evento della vita                                                                                                                                                    |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Evento aziendale       |genere\ [#F1]_\          |Iniziare affari                                                                                                                                                      |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Registrazione di un'azienda                                                                                                                                        |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Richiede una licenza, un permesso o un certificato per avviare o continuare un'attività                                                                            |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Registrazione della proprietà intellettuale                                                                                                                        |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Registrazione di un ramo                                                                                                                                           |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Inizia una nuova attività                                                                                                                                          |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Finanziamento di un'azienda                                                                                                                                        |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Assumere un dipendente                                                                                                                                             |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |Avvio di attività transfrontaliere                                                                                                                                   |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Registrazione di un'attività transfrontaliera                                                                                                                      |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Registrazione di un ramo                                                                                                                                           |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |Facendo affari                                                                                                                                                       |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Finanziamento di un'azienda                                                                                                                                        |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Richiede una licenza, un permesso o un certificato per avviare o continuare un'attività                                                                            |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Registrazione della proprietà intellettuale                                                                                                                        |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Assumere un dipendente                                                                                                                                             |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Partecipare agli appalti pubblici                                                                                                                                  |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Notifica e segnalazione alle autorità                                                                                                                              |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Inizia una nuova attività                                                                                                                                          |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Registrazione di un ramo                                                                                                                                           |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Avere problemi nel pagare i creditori                                                                                                                              |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |Concludere affari                                                                                                                                                    |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Ristrutturazione di un'azienda                                                                                                                                     |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Scioglimento di una società                                                                                                                                        |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Evento della vita      |Genere\ [#F2]_\          |* Avere un figlio                                                                                                                                                    |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Diventare un custode (sociale)                                                                                                                                     |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Iniziare l'educazione                                                                                                                                              |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Alla ricerca di un nuovo lavoro                                                                                                                                    |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Perdere / lasciare un lavoro                                                                                                                                       |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Alla ricerca di un posto dove vivere                                                                                                                               |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Modifica dello stato della relazione                                                                                                                               |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Guidare un veicolo                                                                                                                                                 |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Viaggiare all'estero                                                                                                                                               |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Trasferimenti da / verso il paese                                                                                                                                  |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Andare al servizio militare                                                                                                                                        |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Di fronte a un problema di emergenza / salute                                                                                                                      |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Di fronte a un crimine                                                                                                                                             |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* La pensione                                                                                                                                                        |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Morte di un parente                                                                                                                                                |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Servizio pubblico      |Genere                   |Tassonomia COFOG\ [#F3]_\                                                                                                                                            |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                       |Area tematica            |TBC                                                                                                                                                                  |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                       |Linguaggio               |Elenco delle autorità denominate nelle lingue dell'Ufficio delle pubblicazioni europee (NAL)\ [#F4]_\                                                                |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                       |Settore                  |Elenco dei codici NACE\ [#F5]_\                                                                                                                                      |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                       |Spaziale                 |MDR Continents Elenco delle autorità denominate\ [#F6]_\ , Elenco delle autorità con nome \ |LINK1|\ , Elenco delle autorizzazioni con nome \ |LINK2|\ , \ |LINK3|\  |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                       |Stato                    |Vocabolario di stato ADMS\ [#F7]_\                                                                                                                                   |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Partecipazione         |Ruolo                    |TBC                                                                                                                                                                  |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Criterion Requirement  |genere                   |TBC                                                                                                                                                                  |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Prova                  |genere                   |TBC                                                                                                                                                                  |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                       |linguaggio               |Elenco delle autorità denominate nelle lingue dell'Ufficio delle pubblicazioni europee (NAL)\ [#F8]_\                                                                |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Produzione             |genere\ [#F9]_\          |* Dichiarazione                                                                                                                                                      |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Oggetto fisico                                                                                                                                                     |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Codice                                                                                                                                                             |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Obbligo finanziario                                                                                                                                                |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Beneficio finanziario                                                                                                                                              |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Riconoscimento                                                                                                                                                     |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Permesso                                                                                                                                                           |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Costo                  |Moneta                   |Elenco delle autorità nominate dall'Ufficio delle pubblicazioni europee (NAL)\ [#F10]_\                                                                              |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Canale                 |genere                   |* E-mail                                                                                                                                                             |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Homepage                                                                                                                                                           |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Fax                                                                                                                                                                |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Assistente                                                                                                                                                         |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Telefono                                                                                                                                                           |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* App per dispositivi mobili                                                                                                                                         |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Tv digitale                                                                                                                                                        |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* posta                                                                                                                                                              |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Servizio di assistenza                                                                                                                                             |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* Posizione del cliente                                                                                                                                              |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Regola                 |linguaggio               |Elenco delle autorità denominate nelle lingue dell'Ufficio delle pubblicazioni europee (NAL)\ [#F11]_\                                                               |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Quadro formale         |linguaggio               |Elenco delle autorità denominate nelle lingue dell'Ufficio delle pubblicazioni europee (NAL)\ [#F12]_\                                                               |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                       |Stato                    |* Identificatore della legislazione europea\ [#F13]_\ :                                                                                                              |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* vigente                                                                                                                                                            |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* non in vigore                                                                                                                                                      |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* parzialmente applicabile                                                                                                                                           |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* implicitamente revocato                                                                                                                                            |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* esplicitamente revocato                                                                                                                                            |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* abrogato                                                                                                                                                           |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* scaduto                                                                                                                                                            |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* sospeso                                                                                                                                                            |
+|                       |                         |                                                                                                                                                                     |
+|                       |                         |* altro                                                                                                                                                              |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                       |Soggetto                 |Domini Eurovoc\ [#F14]_\                                                                                                                                             |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                       |Applicazione territoriale|Tassonomia NUTS\ [#F15]_\                                                                                                                                            |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                       |genere                   |Tipi di risorse Named Authority Lists (NAL)\ [#F16]_\                                                                                                                |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Organizzazione pubblica|Spaziale                 |MDR Continents Elenco delle autorità denominate\ [#F17]_\  , Elenco delle autorità con nome Paesi MDR                                                                |
++-----------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 .. bottom of content
@@ -215,6 +215,20 @@ In particolare per la lista 1\ |STYLE0|\  e 2\ |STYLE1|\  livello eventi azien
 .. |STYLE3| replace:: **Tabella 1 : vocabolari controllati da CPSV-AP**
 
 
+.. |LINK1| raw:: html
+
+    <a href="http://publications.europa.eu/mdr/authority/country/" target="_blank">Paesi MDR</a>
+
+.. |LINK2| raw:: html
+
+    <a href="http://publications.europa.eu/mdr/authority/place/index.html" target="_blank">luoghi MDR</a>
+
+.. |LINK3| raw:: html
+
+    <a href="http://sws.geonames.org/" target="_blank">Geonames</a>
+
+
+
 .. rubric:: Footnotes
 
 .. [#f1]  Il 2° livello di eventi aziendali potrebbero presentare domanda di diverse 1 \ :sup:`st`\ eventi aziendali di livello, portando a una relazione molti-a-molti mapping tra 1 \ :sup:`°`\ e 2 \ :sup:`nd`\ eventi aziendali di livello. Una descrizione per ogni 2 \ :sup:`°`\ evento di business di livello è stato inserito nella “ Descrizione del 2 \ :sup:`nd`\ eventi aziendali di livello”.
@@ -223,20 +237,17 @@ In particolare per la lista 1\ |STYLE0|\  e 2\ |STYLE1|\  livello eventi azien
 .. [#f4]  http://publications.europa.eu/mdr/authority/language/index.html
 .. [#f5]  http://ec.europa.eu/competition/mergers/cases/index/nace_all.html
 .. [#f6]   `http://publications.europa.eu/mdr/authority/continent/index.html <http://publications.europa.eu/mdr/authority/continent/index.html>`__  
-.. [#f7]   `http://publications.europa.eu/mdr/authority/country/ <http://publications.europa.eu/mdr/authority/country/>`__ 
-.. [#f8]   `http://publications.europa.eu/mdr/authority/place/index.html <http://publications.europa.eu/mdr/authority/place/index.html>`__ 
-.. [#f9]   `http://sws.geonames.org/ <http://sws.geonames.org/>`__ 
-.. [#f10]   `http://purl.org/adms/status/ <http://purl.org/adms/status/>`__ 
+.. [#f7]   `http://purl.org/adms/status/ <http://purl.org/adms/status/>`__ 
+.. [#f8]   `http://publications.europa.eu/mdr/authority/language/index.html <http://publications.europa.eu/mdr/authority/language/index.html>`__ 
+.. [#f9]  Una descrizione per ciascun tipo di output è stata inclusa in " Descrizione dei tipi di output ".
+.. [#f10]   `http://publications.europa.eu/mdr/authority/currency/index.html <http://publications.europa.eu/mdr/authority/currency/index.html>`__ 
 .. [#f11]   `http://publications.europa.eu/mdr/authority/language/index.html <http://publications.europa.eu/mdr/authority/language/index.html>`__ 
-.. [#f12]  Una descrizione per ciascun tipo di output è stata inclusa in " Descrizione dei tipi di output ".
-.. [#f13]   `http://publications.europa.eu/mdr/authority/currency/index.html <http://publications.europa.eu/mdr/authority/currency/index.html>`__ 
-.. [#f14]   `http://publications.europa.eu/mdr/authority/language/index.html <http://publications.europa.eu/mdr/authority/language/index.html>`__ 
-.. [#f15]    `http://publications.europa.eu/mdr/authority/language/index.html <http://publications.europa.eu/mdr/authority/language/index.html>`__ 
-.. [#f16]   `http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52012XG1026(01) <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52012XG1026(01)>`__ 
-.. [#f17]   `http://eurovoc.europa.eu/drupal/?q=download/subject_oriented&cl=en <http://eurovoc.europa.eu/drupal/?q=download/subject_oriented&cl=en>`__ 
-.. [#f18]   `http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NUTS_22&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC <http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NUTS_22&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC>`__ 
-.. [#f19]   `http://publications.europa.eu/mdr/authority/resource-type/index.html <http://publications.europa.eu/mdr/authority/resource-type/index.html>`__ 
-.. [#f20]   `http://publications.europa.eu/mdr/authority/continent/index.html <http://publications.europa.eu/mdr/authority/continent/index.html>`__ 
-.. [#f21]   `http://publications.europa.eu/mdr/authority/country/ <http://publications.europa.eu/mdr/authority/country/>`__ 
-.. [#f22]   `http://publications.europa.eu/mdr/authority/place/index.html <http://publications.europa.eu/mdr/authority/place/index.html>`__ 
-.. [#f23]   `http://sws.geonames.org/ <http://sws.geonames.org/>`__ 
+.. [#f12]    `http://publications.europa.eu/mdr/authority/language/index.html <http://publications.europa.eu/mdr/authority/language/index.html>`__ 
+.. [#f13]   `http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52012XG1026(01) <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52012XG1026(01)>`__ 
+.. [#f14]   `http://eurovoc.europa.eu/drupal/?q=download/subject_oriented&cl=en <http://eurovoc.europa.eu/drupal/?q=download/subject_oriented&cl=en>`__ 
+.. [#f15]   `http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NUTS_22&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC <http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NUTS_22&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC>`__ 
+.. [#f16]   `http://publications.europa.eu/mdr/authority/resource-type/index.html <http://publications.europa.eu/mdr/authority/resource-type/index.html>`__ 
+.. [#f17]   `http://publications.europa.eu/mdr/authority/continent/index.html <http://publications.europa.eu/mdr/authority/continent/index.html>`__ 
+.. [#f18]   `http://publications.europa.eu/mdr/authority/country/ <http://publications.europa.eu/mdr/authority/country/>`__ 
+.. [#f19]   `http://publications.europa.eu/mdr/authority/place/index.html <http://publications.europa.eu/mdr/authority/place/index.html>`__ 
+.. [#f20]   `http://sws.geonames.org/ <http://sws.geonames.org/>`__ 
