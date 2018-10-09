@@ -10,6 +10,9 @@ D02.02 - Profilo di applicazione del vocabolario del servizio pubblico principal
 
 |REPLACE2|
 
+
+|REPLACE3|
+
 .. _h209127b794c17173062a12146b3258:
 
 Document Metadata
@@ -104,6 +107,9 @@ Creazione del documento su Read the Docs a cura di \ |LINK3|\ .
 .. |REPLACE2| raw:: html
 
     <strong><span style="background-color: #247a2e; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">CPSV-AP 2.2</span></strong>
+.. |REPLACE3| raw:: html
+
+    <img src="https://raw.githubusercontent.com/cirospat/-vocabolario-controllato-servizi-pubblici/master/static/CPSV-AP_Specification%20v2.2.png" /><br>
 
 .. |LINK1| raw:: html
 
