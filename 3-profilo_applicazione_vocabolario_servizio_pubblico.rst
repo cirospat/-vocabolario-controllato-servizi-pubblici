@@ -620,12 +620,12 @@ In altre parole, un evento aziendale raggruppa una serie di servizi pubblici che
 3.5. The Life Event Class
 =========================
 
-La classe Life Event rappresenta un evento o una situazione importante   nella vita di un cittadino in cui possono essere richiesti servizi pubblici. Nota lo scopo: un individuo incontrerà un numero qualsiasi di "eventi" nel senso generale del termine. Nel contesto di CPSV-AP, la classe Life Event rappresenta \ |STYLE133|\  un evento a cui è collegato un servizio pubblico. Ad esempio, una coppia fidanzata non è un Evento di vita CPSV-AP, lo sposarsi è, poiché solo quest'ultimo ha rilevanza per i servizi pubblici.
+La classe Life Event rappresenta un evento o una situazione importante   nella vita di un cittadino in cui possono essere richiesti servizi pubblici. Nota lo scopo: un individuo incontrerà un numero qualsiasi di "eventi" nel senso generale del termine. Nel contesto di CPSV-AP, la classe Life Event rappresenta solo un evento a cui è collegato un servizio pubblico. Ad esempio, una coppia fidanzata non è un Evento di vita CPSV-AP, lo sposarsi è, poiché solo quest'ultimo ha rilevanza per i servizi pubblici.
 
  
 
 +-----------------+--------------+--------------+
-|\ |STYLE134|\    |\ |STYLE135|\ |\ |STYLE136|\ |
+|\ |STYLE133|\    |\ |STYLE134|\ |\ |STYLE135|\ |
 +-----------------+--------------+--------------+
 |Evento della vita|Opzionale     |cv: LifeEvent |
 +-----------------+--------------+--------------+
@@ -640,7 +640,7 @@ Il set di dati del servizio pubblico, è una specializzazione della classe Datas
  
 
 +---------------------------------+--------------+------------------------+
-|\ |STYLE137|\                    |\ |STYLE138|\ |\ |STYLE139|\           |
+|\ |STYLE136|\                    |\ |STYLE137|\ |\ |STYLE138|\           |
 +---------------------------------+--------------+------------------------+
 |Set di dati del servizio pubblico|Opzionale     |cv: PublicServiceDataset|
 +---------------------------------+--------------+------------------------+
@@ -659,7 +659,7 @@ Questa proprietà rappresenta un identificatore per il set di dati del servizio 
  
 
 +--------------+-------------------+---------------+--------------+
-|\ |STYLE140|\ |\ |STYLE141|\      |\ |STYLE142|\  |\ |STYLE143|\ |
+|\ |STYLE139|\ |\ |STYLE140|\      |\ |STYLE141|\  |\ |STYLE142|\ |
 +--------------+-------------------+---------------+--------------+
 |identificatore|DCT: identificatore|Testo\ [#F9]_\ |1..1          |
 +--------------+-------------------+---------------+--------------+
@@ -674,7 +674,7 @@ Questa proprietà rappresenta l'editore del set di dati del servizio pubblico, o
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE144|\ |\ |STYLE145|\ |\ |STYLE146|\ |\ |STYLE147|\ |
+|\ |STYLE143|\ |\ |STYLE144|\ |\ |STYLE145|\ |\ |STYLE146|\ |
 +--------------+--------------+--------------+--------------+
 |editore       |DCT: editore  |Agente        |1..1          |
 +--------------+--------------+--------------+--------------+
@@ -689,7 +689,7 @@ Questa proprietà contiene un nome assegnato al set di dati del servizio pubblic
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE148|\ |\ |STYLE149|\ |\ |STYLE150|\ |\ |STYLE151|\ |
+|\ |STYLE147|\ |\ |STYLE148|\ |\ |STYLE149|\ |\ |STYLE150|\ |
 +--------------+--------------+--------------+--------------+
 |nome          |DCT: titolo   |Testo         |1..n          |
 +--------------+--------------+--------------+--------------+
@@ -704,7 +704,7 @@ Questa proprietà fa riferimento a una pagina Web che fornisce l'accesso al set 
  
 
 +----------------------+-----------------+--------------+--------------+
-|\ |STYLE152|\         |\ |STYLE153|\    |\ |STYLE154|\ |\ |STYLE155|\ |
+|\ |STYLE151|\         |\ |STYLE152|\    |\ |STYLE153|\ |\ |STYLE154|\ |
 +----------------------+-----------------+--------------+--------------+
 |pagina di destinazione|DCAT: Landingpage|Documento     |1..n          |
 +----------------------+-----------------+--------------+--------------+
@@ -723,21 +723,21 @@ Il CPSV-AP riconosce un ruolo comune connesso ai servizi pubblici, ovvero l'auto
  
 
 +--------------+--------------+------------------+
-|\ |STYLE156|\ |\ |STYLE157|\ |\ |STYLE158|\     |
+|\ |STYLE155|\ |\ |STYLE156|\ |\ |STYLE157|\     |
 +--------------+--------------+------------------+
 |Partecipazione|Opzionale     |cv: Partecipazione|
 +--------------+--------------+------------------+
 
  
 
-\ |STYLE159|\            \ |STYLE160|\ 
+\ |STYLE158|\            \ |STYLE159|\ 
 
 Questa proprietà rappresenta un identificatore per la partecipazione.
 
  
 
 +--------------+-------------------+-----------------+--------------+
-|\ |STYLE161|\ |\ |STYLE162|\      |\ |STYLE163|\    |\ |STYLE164|\ |
+|\ |STYLE160|\ |\ |STYLE161|\      |\ |STYLE162|\    |\ |STYLE163|\ |
 +--------------+-------------------+-----------------+--------------+
 |identificatore|DCT: identificatore|Testo\ [#F10]_\  |1..1          |
 +--------------+-------------------+-----------------+--------------+
@@ -752,7 +752,7 @@ Una descrizione testuale libera della partecipazione.
  
 
 +--------------+----------------+--------------+--------------+
-|\ |STYLE165|\ |\ |STYLE166|\   |\ |STYLE167|\ |\ |STYLE168|\ |
+|\ |STYLE164|\ |\ |STYLE165|\   |\ |STYLE166|\ |\ |STYLE167|\ |
 +--------------+----------------+--------------+--------------+
 |descrizione   |DCT: Descrizione|Testo         |1..1          |
 +--------------+----------------+--------------+--------------+
@@ -767,7 +767,7 @@ Fornisce il ruolo svolto. Questo dovrebbe essere fornito usando un vocabolario 
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE169|\ |\ |STYLE170|\ |\ |STYLE171|\ |\ |STYLE172|\ |
+|\ |STYLE168|\ |\ |STYLE169|\ |\ |STYLE170|\ |\ |STYLE171|\ |
 +--------------+--------------+--------------+--------------+
 |ruolo         |cv: ruolo     |Concetto      |1..n          |
 +--------------+--------------+--------------+--------------+
@@ -784,7 +784,7 @@ Non tutti i servizi pubblici sono necessari o utilizzabili da tutti. Ad esempio
  
 
 +---------------------+--------------+------------------------+
-|\ |STYLE173|\        |\ |STYLE174|\ |\ |STYLE175|\           |
+|\ |STYLE172|\        |\ |STYLE173|\ |\ |STYLE174|\           |
 +---------------------+--------------+------------------------+
 |Criterio obbligatorio|Opzionale     |cv: CriterionRequirement|
 +---------------------+--------------+------------------------+
@@ -801,7 +801,7 @@ Questa proprietà rappresenta un identificatore per il criterio di criterio .
  
 
 +--------------+-------------------+-----------------+--------------+
-|\ |STYLE176|\ |\ |STYLE177|\      |\ |STYLE178|\    |\ |STYLE179|\ |
+|\ |STYLE175|\ |\ |STYLE176|\      |\ |STYLE177|\    |\ |STYLE178|\ |
 +--------------+-------------------+-----------------+--------------+
 |identificatore|DCT: identificatore|Testo\ [#F12]_\  |1..1          |
 +--------------+-------------------+-----------------+--------------+
@@ -816,7 +816,7 @@ Questa proprietà rappresenta il nome ufficiale del criterio di criterio .
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE180|\ |\ |STYLE181|\ |\ |STYLE182|\ |\ |STYLE183|\ |
+|\ |STYLE179|\ |\ |STYLE180|\ |\ |STYLE181|\ |\ |STYLE182|\ |
 +--------------+--------------+--------------+--------------+
 |nome          |DCT: titolo   |Testo         |1..1          |
 +--------------+--------------+--------------+--------------+
@@ -831,7 +831,7 @@ Questa proprietà rappresenta il tipo di criterio richiesto come descritto in 
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE184|\ |\ |STYLE185|\ |\ |STYLE186|\ |\ |STYLE187|\ |
+|\ |STYLE183|\ |\ |STYLE184|\ |\ |STYLE185|\ |\ |STYLE186|\ |
 +--------------+--------------+--------------+--------------+
 |genere        |DCT: Tipo     |Concetto      |0..n          |
 +--------------+--------------+--------------+--------------+
@@ -860,7 +860,7 @@ In alcuni casi, l'output di un servizio sarà Evidence per un altro servizio. T
  
 
 +--------------+--------------+--------------+
-|\ |STYLE188|\ |\ |STYLE189|\ |\ |STYLE190|\ |
+|\ |STYLE187|\ |\ |STYLE188|\ |\ |STYLE189|\ |
 +--------------+--------------+--------------+
 |Prova         |Opzionale     |cv: Evidence  |
 +--------------+--------------+--------------+
@@ -875,7 +875,7 @@ Questa proprietà rappresenta un identificatore per il pezzo di prova.
  
 
 +--------------+-------------------+----------------+--------------+
-|\ |STYLE191|\ |\ |STYLE192|\      |\ |STYLE193|\   |\ |STYLE194|\ |
+|\ |STYLE190|\ |\ |STYLE191|\      |\ |STYLE192|\   |\ |STYLE193|\ |
 +--------------+-------------------+----------------+--------------+
 |identificatore|DCT: identificatore|Testo\ [#F13]_\ |1..1          |
 +--------------+-------------------+----------------+--------------+
@@ -890,7 +890,7 @@ Questa proprietà rappresenta il nome ufficiale del pezzo di prova.
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE195|\ |\ |STYLE196|\ |\ |STYLE197|\ |\ |STYLE198|\ |
+|\ |STYLE194|\ |\ |STYLE195|\ |\ |STYLE196|\ |\ |STYLE197|\ |
 +--------------+--------------+--------------+--------------+
 |nome          |DCT: titolo   |Testo         |1..1          |
 +--------------+--------------+--------------+--------------+
@@ -905,7 +905,7 @@ Questa proprietà rappresenta un testo libero Descrizione dell'elemento di prova
  
 
 +--------------+----------------+--------------+--------------+
-|\ |STYLE199|\ |\ |STYLE200|\   |\ |STYLE201|\ |\ |STYLE202|\ |
+|\ |STYLE198|\ |\ |STYLE199|\   |\ |STYLE200|\ |\ |STYLE201|\ |
 +--------------+----------------+--------------+--------------+
 |descrizione   |DCT: Descrizione|Testo         |0..1          |
 +--------------+----------------+--------------+--------------+
@@ -920,7 +920,7 @@ Questa proprietà rappresenta il tipo di Evidenza come descritto in un vocabolar
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE203|\ |\ |STYLE204|\ |\ |STYLE205|\ |\ |STYLE206|\ |
+|\ |STYLE202|\ |\ |STYLE203|\ |\ |STYLE204|\ |\ |STYLE205|\ |
 +--------------+--------------+--------------+--------------+
 |genere        |DCT: Tipo     |Concetto      |0..1          |
 +--------------+--------------+--------------+--------------+
@@ -935,7 +935,7 @@ Questa proprietà rappresenta la documentazione che contiene informazioni relati
  
 
 +-----------------------+--------------+--------------+--------------+
-|\ |STYLE207|\          |\ |STYLE208|\ |\ |STYLE209|\ |\ |STYLE210|\ |
+|\ |STYLE206|\          |\ |STYLE207|\ |\ |STYLE208|\ |\ |STYLE209|\ |
 +-----------------------+--------------+--------------+--------------+
 |Documentazionecorrelata|foaf: Pagina  |Documento     |0..n          |
 +-----------------------+--------------+--------------+--------------+
@@ -950,7 +950,7 @@ Indica la / e lingua / e in cui deve essere fornita la prova.
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE211|\ |\ |STYLE212|\ |\ |STYLE213|\ |\ |STYLE214|\ |
+|\ |STYLE210|\ |\ |STYLE211|\ |\ |STYLE212|\ |\ |STYLE213|\ |
 +--------------+--------------+--------------+--------------+
 |linguaggio    |DCT: lingua   |Concetto      |0..n          |
 +--------------+--------------+--------------+--------------+
@@ -969,7 +969,7 @@ In alcuni casi, l'output di un servizio pubblico sarà utilizzato come prova per
  
 
 +--------------+--------------+--------------+
-|\ |STYLE215|\ |\ |STYLE216|\ |\ |STYLE217|\ |
+|\ |STYLE214|\ |\ |STYLE215|\ |\ |STYLE216|\ |
 +--------------+--------------+--------------+
 |Produzione    |Opzionale     |cv: Uscita    |
 +--------------+--------------+--------------+
@@ -986,7 +986,7 @@ Questa proprietà rappresenta un identificatore per l'output.
  
 
 +--------------+-------------------+-----------------+--------------+
-|\ |STYLE218|\ |\ |STYLE219|\      |\ |STYLE220|\    |\ |STYLE221|\ |
+|\ |STYLE217|\ |\ |STYLE218|\      |\ |STYLE219|\    |\ |STYLE220|\ |
 +--------------+-------------------+-----------------+--------------+
 |identificatore|DCT: identificatore|Testo\ [#F14]_\  |1..1          |
 +--------------+-------------------+-----------------+--------------+
@@ -1001,7 +1001,7 @@ Questa proprietà rappresenta il nome ufficiale dell'output.
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE222|\ |\ |STYLE223|\ |\ |STYLE224|\ |\ |STYLE225|\ |
+|\ |STYLE221|\ |\ |STYLE222|\ |\ |STYLE223|\ |\ |STYLE224|\ |
 +--------------+--------------+--------------+--------------+
 |nome          |DCT: titolo   |Testo         |1..1          |
 +--------------+--------------+--------------+--------------+
@@ -1016,7 +1016,7 @@ Questa proprietà rappresenta un testo libero Descrizione dell'output.
  
 
 +--------------+----------------+--------------+--------------+
-|\ |STYLE226|\ |\ |STYLE227|\   |\ |STYLE228|\ |\ |STYLE229|\ |
+|\ |STYLE225|\ |\ |STYLE226|\   |\ |STYLE227|\ |\ |STYLE228|\ |
 +--------------+----------------+--------------+--------------+
 |descrizione   |DCT: Descrizione|Testo         |0..1          |
 +--------------+----------------+--------------+--------------+
@@ -1031,7 +1031,7 @@ Questa proprietà rappresenta il tipo di Output definito in un vocabolario contr
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE230|\ |\ |STYLE231|\ |\ |STYLE232|\ |\ |STYLE233|\ |
+|\ |STYLE229|\ |\ |STYLE230|\ |\ |STYLE231|\ |\ |STYLE232|\ |
 +--------------+--------------+--------------+--------------+
 |tipo          |DCT: Tipo     |Concetto      |0..n          |
 +--------------+--------------+--------------+--------------+
@@ -1046,7 +1046,7 @@ La classe di costo rappresenta tutti i costi relativi all'esecuzione di un servi
  
 
 +--------------+--------------+--------------+
-|\ |STYLE234|\ |\ |STYLE235|\ |\ |STYLE236|\ |
+|\ |STYLE233|\ |\ |STYLE234|\ |\ |STYLE235|\ |
 +--------------+--------------+--------------+
 |Costo         |Opzionale     |cv: Costo     |
 +--------------+--------------+--------------+
@@ -1061,7 +1061,7 @@ La classe di costo rappresenta tutti i costi relativi all'esecuzione di un servi
 Questa proprietà rappresenta un identificatore per il costo.
 
 +--------------+-------------------+-----------------+--------------+
-|\ |STYLE237|\ |\ |STYLE238|\      |\ |STYLE239|\    |\ |STYLE240|\ |
+|\ |STYLE236|\ |\ |STYLE237|\      |\ |STYLE238|\    |\ |STYLE239|\ |
 +--------------+-------------------+-----------------+--------------+
 |identificatore|DCT: identificatore|Testo\ [#F15]_\  |1..1          |
 +--------------+-------------------+-----------------+--------------+
@@ -1076,7 +1076,7 @@ Questa proprietà rappresenta un valore numerico che indica l'importo del costo.
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE241|\ |\ |STYLE242|\ |\ |STYLE243|\ |\ |STYLE244|\ |
+|\ |STYLE240|\ |\ |STYLE241|\ |\ |STYLE242|\ |\ |STYLE243|\ |
 +--------------+--------------+--------------+--------------+
 |valore        |cv: Valore    |Numero        |0..1          |
 +--------------+--------------+--------------+--------------+
@@ -1091,7 +1091,7 @@ Questa proprietà rappresenta la valuta in cui il costo deve essere pagato e il 
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE245|\ |\ |STYLE246|\ |\ |STYLE247|\ |\ |STYLE248|\ |
+|\ |STYLE244|\ |\ |STYLE245|\ |\ |STYLE246|\ |\ |STYLE247|\ |
 +--------------+--------------+--------------+--------------+
 |moneta        |cv: Valuta    |Concetto      |0..1          |
 +--------------+--------------+--------------+--------------+
@@ -1106,7 +1106,7 @@ Questa proprietà rappresenta una descrizione di testo libera del costo.
  
 
 +--------------+----------------+--------------+--------------+
-|\ |STYLE249|\ |\ |STYLE250|\   |\ |STYLE251|\ |\ |STYLE252|\ |
+|\ |STYLE248|\ |\ |STYLE249|\   |\ |STYLE250|\ |\ |STYLE251|\ |
 +--------------+----------------+--------------+--------------+
 |descrizione   |DCT: Descrizione|Testo         |0..1          |
 +--------------+----------------+--------------+--------------+
@@ -1121,7 +1121,7 @@ Questa proprietà l inchiostra la classe di costo con una o più istanze della�
  
 
 +--------------+---------------+------------------+--------------+
-|\ |STYLE253|\ |\ |STYLE254|\  |\ |STYLE255|\     |\ |STYLE256|\ |
+|\ |STYLE252|\ |\ |STYLE253|\  |\ |STYLE254|\     |\ |STYLE255|\ |
 +--------------+---------------+------------------+--------------+
 |isDefinedBy   |cv: isDefinedBy|PublicOrganisation|0..n          |
 +--------------+---------------+------------------+--------------+
@@ -1136,7 +1136,7 @@ Dove il costo varia a seconda del canale utilizzato, ad esempio, se l'accesso av
  
 
 +-----------------+---------------------+--------------+--------------+
-|\ |STYLE257|\    |\ |STYLE258|\        |\ |STYLE259|\ |\ |STYLE260|\ |
+|\ |STYLE256|\    |\ |STYLE257|\        |\ |STYLE258|\ |\ |STYLE259|\ |
 +-----------------+---------------------+--------------+--------------+
 |ifAccessedThrough|cv: ifAccessedThrough|Canale        |0..1          |
 +-----------------+---------------------+--------------+--------------+
@@ -1153,7 +1153,7 @@ La classe Channel rappresenta il mezzo attraverso il quale un agente fornisce, u
  
 
 +--------------+--------------+--------------+
-|\ |STYLE261|\ |\ |STYLE262|\ |\ |STYLE263|\ |
+|\ |STYLE260|\ |\ |STYLE261|\ |\ |STYLE262|\ |
 +--------------+--------------+--------------+
 |Canale        |Opzionale     |cv: Canale    |
 +--------------+--------------+--------------+
@@ -1170,7 +1170,7 @@ Questa proprietà rappresenta un identificatore per il canale.
  
 
 +--------------+-------------------+-----------------+--------------+
-|\ |STYLE264|\ |\ |STYLE265|\      |\ |STYLE266|\    |\ |STYLE267|\ |
+|\ |STYLE263|\ |\ |STYLE264|\      |\ |STYLE265|\    |\ |STYLE266|\ |
 +--------------+-------------------+-----------------+--------------+
 |identificatore|DCT: identificatore|Testo \ |LINK3|\ |1..1          |
 +--------------+-------------------+-----------------+--------------+
@@ -1185,7 +1185,7 @@ Questa proprietà esegue l'inchiostrazione della classe Channel con una o più 
  
 
 +--------------+--------------+-----------------------+--------------+
-|\ |STYLE268|\ |\ |STYLE269|\ |\ |STYLE270|\          |\ |STYLE271|\ |
+|\ |STYLE267|\ |\ |STYLE268|\ |\ |STYLE269|\          |\ |STYLE270|\ |
 +--------------+--------------+-----------------------+--------------+
 |posseduto da  |cv: ownedBy   |Organizzazione pubblica|0..n          |
 +--------------+--------------+-----------------------+--------------+
@@ -1200,7 +1200,7 @@ Questa proprietà rappresenta il tipo di canale definito in un vocabolario contr
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE272|\ |\ |STYLE273|\ |\ |STYLE274|\ |\ |STYLE275|\ |
+|\ |STYLE271|\ |\ |STYLE272|\ |\ |STYLE273|\ |\ |STYLE274|\ |
 +--------------+--------------+--------------+--------------+
 |genere        |DCT: Tipo     |Concetto      |0..1          |
 +--------------+--------------+--------------+--------------+
@@ -1215,7 +1215,7 @@ Nella maggior parte dei casi, le prove richieste per utilizzare un servizio pubb
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE276|\ |\ |STYLE277|\ |\ |STYLE278|\ |\ |STYLE279|\ |
+|\ |STYLE275|\ |\ |STYLE276|\ |\ |STYLE277|\ |\ |STYLE278|\ |
 +--------------+--------------+--------------+--------------+
 |hasInput      |CPsV: hasInput|Prova         |0..n          |
 +--------------+--------------+--------------+--------------+
@@ -1234,7 +1234,7 @@ Se è opportuno aggiungere ore di apertura, questo segue il giorno quindi se un 
  
 
 +-----------------+--------------------+--------------+--------------+
-|\ |STYLE280|\    |\ |STYLE281|\       |\ |STYLE282|\ |\ |STYLE283|\ |
+|\ |STYLE279|\    |\ |STYLE280|\       |\ |STYLE281|\ |\ |STYLE282|\ |
 +-----------------+--------------------+--------------+--------------+
 |orari di apertura|Schema: openingHours|Testo         |0..n          |
 +-----------------+--------------------+--------------+--------------+
@@ -1251,7 +1251,7 @@ Questa proprietà collega un canale a informazioni su quando il canale non è�
  
 
 +-----------------------+----------------------+------------------------------------+--------------+
-|\ |STYLE284|\          |\ |STYLE285|\         |\ |STYLE286|\                       |\ |STYLE287|\ |
+|\ |STYLE283|\          |\ |STYLE284|\         |\ |STYLE285|\                       |\ |STYLE286|\ |
 +-----------------------+----------------------+------------------------------------+--------------+
 |availabilityRestriction|schema: hoursAvailable|Specificazione delle ore di apertura|0..1          |
 +-----------------------+----------------------+------------------------------------+--------------+
@@ -1284,7 +1284,7 @@ schema: validThrough "2017-01-02T09: 00Z".
  
 
 +-----------------+--------------+---------------------------------+
-|\ |STYLE288|\    |\ |STYLE289|\ |\ |STYLE290|\                    |
+|\ |STYLE287|\    |\ |STYLE288|\ |\ |STYLE289|\                    |
 +-----------------+--------------+---------------------------------+
 |orari di apertura|Opzionale     |schema: OpeningHoursSpecification|
 +-----------------+--------------+---------------------------------+
@@ -1307,7 +1307,7 @@ La modellazione dettagliata delle regole relative ai servizi pubblici non rientr
  
 
 +--------------+--------------+--------------+
-|\ |STYLE291|\ |\ |STYLE292|\ |\ |STYLE293|\ |
+|\ |STYLE290|\ |\ |STYLE291|\ |\ |STYLE292|\ |
 +--------------+--------------+--------------+
 |Regola        |Opzionale     |CPsV: Regola  |
 +--------------+--------------+--------------+
@@ -1324,7 +1324,7 @@ Questa proprietà rappresenta un identificatore per la regola.
  
 
 +--------------+-------------------+-----------------+--------------+
-|\ |STYLE294|\ |\ |STYLE295|\      |\ |STYLE296|\    |\ |STYLE297|\ |
+|\ |STYLE293|\ |\ |STYLE294|\      |\ |STYLE295|\    |\ |STYLE296|\ |
 +--------------+-------------------+-----------------+--------------+
 |identificatore|DCT: identificatore|Testo\ [#F18]_\  |1..1          |
 +--------------+-------------------+-----------------+--------------+
@@ -1341,7 +1341,7 @@ Questa proprietà rappresenta un testo libero Descrizione della regola.
  
 
 +--------------+----------------+--------------+--------------+
-|\ |STYLE298|\ |\ |STYLE299|\   |\ |STYLE300|\ |\ |STYLE301|\ |
+|\ |STYLE297|\ |\ |STYLE298|\   |\ |STYLE299|\ |\ |STYLE300|\ |
 +--------------+----------------+--------------+--------------+
 |descrizione   |DCT: Descrizione|Testo         |1..1          |
 +--------------+----------------+--------------+--------------+
@@ -1356,7 +1356,7 @@ Questa proprietà rappresenta la lingua / le lingue in cui è disponibile la reg
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE302|\ |\ |STYLE303|\ |\ |STYLE304|\ |\ |STYLE305|\ |
+|\ |STYLE301|\ |\ |STYLE302|\ |\ |STYLE303|\ |\ |STYLE304|\ |
 +--------------+--------------+--------------+--------------+
 |linguaggio    |DCT: lingua   |Concetto      |0..n          |
 +--------------+--------------+--------------+--------------+
@@ -1371,7 +1371,7 @@ Questa proprietà rappresenta il nome della regola.
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE306|\ |\ |STYLE307|\ |\ |STYLE308|\ |\ |STYLE309|\ |
+|\ |STYLE305|\ |\ |STYLE306|\ |\ |STYLE307|\ |\ |STYLE308|\ |
 +--------------+--------------+--------------+--------------+
 |nome          |DCT: titolo   |Testo         |1..1          |
 +--------------+--------------+--------------+--------------+
@@ -1386,7 +1386,7 @@ La proprietà Implementa collega una Regola alla legislazione o ai documenti pol
  
 
 +--------------+--------------+-----------------+--------------+
-|\ |STYLE310|\ |\ |STYLE311|\ |\ |STYLE312|\    |\ |STYLE313|\ |
+|\ |STYLE309|\ |\ |STYLE310|\ |\ |STYLE311|\    |\ |STYLE312|\ |
 +--------------+--------------+-----------------+--------------+
 |attrezzi      |CPsV: attrezzi|Servizio pubblico|0..n          |
 +--------------+--------------+-----------------+--------------+
@@ -1403,7 +1403,7 @@ La classe Agent è qualsiasi risorsa che agisce o ha il potere di agire. Questo
  
 
 +--------------+--------------+--------------+
-|\ |STYLE314|\ |\ |STYLE315|\ |\ |STYLE316|\ |
+|\ |STYLE313|\ |\ |STYLE314|\ |\ |STYLE315|\ |
 +--------------+--------------+--------------+
 |Agente        |Opzionale     |DCT: Agente   |
 +--------------+--------------+--------------+
@@ -1420,7 +1420,7 @@ Questa proprietà rappresenta il nome dell'agente.
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE317|\ |\ |STYLE318|\ |\ |STYLE319|\ |\ |STYLE320|\ |
+|\ |STYLE316|\ |\ |STYLE317|\ |\ |STYLE318|\ |\ |STYLE319|\ |
 +--------------+--------------+--------------+--------------+
 |nome          |DCT: titolo   |Testo         |1..1          |
 +--------------+--------------+--------------+--------------+
@@ -1435,7 +1435,7 @@ Questa proprietà rappresenta un identificatore per l'agente.
  
 
 +--------------+-------------------+-----------------+--------------+
-|\ |STYLE321|\ |\ |STYLE322|\      |\ |STYLE323|\    |\ |STYLE324|\ |
+|\ |STYLE320|\ |\ |STYLE321|\      |\ |STYLE322|\    |\ |STYLE323|\ |
 +--------------+-------------------+-----------------+--------------+
 |identificatore|DCT: identificatore|Testo\ [#F19]_\  |1..1          |
 +--------------+-------------------+-----------------+--------------+
@@ -1450,7 +1450,7 @@ Questa proprietà collega un agente alla classe di partecipazione. La classe di
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE325|\ |\ |STYLE326|\ |\ |STYLE327|\ |\ |STYLE328|\ |
+|\ |STYLE324|\ |\ |STYLE325|\ |\ |STYLE326|\ |\ |STYLE327|\ |
 +--------------+--------------+--------------+--------------+
 |playsRole     |cv: playsRole |Partecipazione|0..n          |
 +--------------+--------------+--------------+--------------+
@@ -1465,7 +1465,7 @@ Questa proprietà rappresenta un n indirizzo relativo a un agente. L'affermazi
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE329|\ |\ |STYLE330|\ |\ |STYLE331|\ |\ |STYLE332|\ |
+|\ |STYLE328|\ |\ |STYLE329|\ |\ |STYLE330|\ |\ |STYLE331|\ |
 +--------------+--------------+--------------+--------------+
 |hasAddress    |cv: hasAddress|Indirizzo     |0..1          |
 +--------------+--------------+--------------+--------------+
@@ -1490,7 +1490,7 @@ Per descrivere gli attributi di una risorsa legale (etichette, etichette preferi
  
 
 +--------------+--------------+------------------+
-|\ |STYLE333|\ |\ |STYLE334|\ |\ |STYLE335|\     |
+|\ |STYLE332|\ |\ |STYLE333|\ |\ |STYLE334|\     |
 +--------------+--------------+------------------+
 |Risorsa legale|Opzionale     |eli: LegalResource|
 +--------------+--------------+------------------+
@@ -1505,7 +1505,7 @@ Questa proprietà rappresenta un'altra istanza della classe di risorse legali�
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE336|\ |\ |STYLE337|\ |\ |STYLE338|\ |\ |STYLE339|\ |
+|\ |STYLE335|\ |\ |STYLE336|\ |\ |STYLE337|\ |\ |STYLE338|\ |
 +--------------+--------------+--------------+--------------+
 |Relazionato   |DCT: relazione|Risorsa legale|0..n          |
 +--------------+--------------+--------------+--------------+
@@ -1522,7 +1522,7 @@ Il CPSV-AP riutilizza il Vocabolario Core Public Organization\ [#F21]_\  che de
  
 
 +-----------------------+--------------+----------------------+
-|\ |STYLE340|\          |\ |STYLE341|\ |\ |STYLE342|\         |
+|\ |STYLE339|\          |\ |STYLE340|\ |\ |STYLE341|\         |
 +-----------------------+--------------+----------------------+
 |Organizzazione pubblica|Obbligatorio  |cv: PublicOrganisation|
 +-----------------------+--------------+----------------------+
@@ -1540,7 +1540,7 @@ Il valore di quest'ultimo dovrebbe essere un URI delle Unità territoriali ammi
  
 
 +--------------+---------------+--------------+--------------+
-|\ |STYLE343|\ |\ |STYLE344|\  |\ |STYLE345|\ |\ |STYLE346|\ |
+|\ |STYLE342|\ |\ |STYLE343|\  |\ |STYLE344|\ |\ |STYLE345|\ |
 +--------------+---------------+--------------+--------------+
 |preferredLabel|skos: prefLabel|Testo         |1..1          |
 +--------------+---------------+--------------+--------------+
@@ -1559,7 +1559,7 @@ Questa classe rappresenta le informazioni di contatto per un servizio pubblico, 
  
 
 +-----------------+--------------+--------------------+
-|\ |STYLE347|\    |\ |STYLE348|\ |\ |STYLE349|\       |
+|\ |STYLE346|\    |\ |STYLE347|\ |\ |STYLE348|\       |
 +-----------------+--------------+--------------------+
 |Punto di contatto|Opzionale     |schema: ContactPoint|
 +-----------------+--------------+--------------------+
@@ -1584,7 +1584,7 @@ Il Concetto può o non può appartenere a (membro) una certa Collezione (sezione
  
 
 +--------------+--------------+--------------+
-|\ |STYLE350|\ |\ |STYLE351|\ |\ |STYLE352|\ |
+|\ |STYLE349|\ |\ |STYLE350|\ |\ |STYLE351|\ |
 +--------------+--------------+--------------+
 |Concetto      |Opzionale     |SKOS: Concetto|
 +--------------+--------------+--------------+
@@ -1607,7 +1607,7 @@ In questo contesto, il CPSV-AP riutilizza la Collezione\ [#F26]_\  classe come 
  
 
 +--------------+--------------+----------------+
-|\ |STYLE353|\ |\ |STYLE354|\ |\ |STYLE355|\   |
+|\ |STYLE352|\ |\ |STYLE353|\ |\ |STYLE354|\   |
 +--------------+--------------+----------------+
 |Collezione    |Opzionale     |SKOS: Collection|
 +--------------+--------------+----------------+
@@ -1624,7 +1624,7 @@ La proprietà Member , come definita in SKOS, consente di indicare i concett
  
 
 +--------------+--------------+--------------+--------------+
-|\ |STYLE356|\ |\ |STYLE357|\ |\ |STYLE358|\ |\ |STYLE359|\ |
+|\ |STYLE355|\ |\ |STYLE356|\ |\ |STYLE357|\ |\ |STYLE358|\ |
 +--------------+--------------+--------------+--------------+
 |Membro        |SKOS: membro  |Concetto      |0..n          |
 +--------------+--------------+--------------+--------------+
@@ -1901,459 +1901,457 @@ La proprietà Member , come definita in SKOS, consente di indicare i concett
 
 .. |STYLE132| replace:: **URI**
 
-.. |STYLE133| replace:: **solo**
+.. |STYLE133| replace:: **Nome della classe**
 
-.. |STYLE134| replace:: **Nome della classe**
+.. |STYLE134| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE135| replace:: **Obbligatorio / facoltativo**
+.. |STYLE135| replace:: **URI**
 
-.. |STYLE136| replace:: **URI**
+.. |STYLE136| replace:: **Nome della classe**
 
-.. |STYLE137| replace:: **Nome della classe**
+.. |STYLE137| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE138| replace:: **Obbligatorio / facoltativo**
+.. |STYLE138| replace:: **URI**
 
-.. |STYLE139| replace:: **URI**
+.. |STYLE139| replace:: **Proprietà**
 
-.. |STYLE140| replace:: **Proprietà**
+.. |STYLE140| replace:: **URI**
 
-.. |STYLE141| replace:: **URI**
+.. |STYLE141| replace:: **Gamma**
 
-.. |STYLE142| replace:: **Gamma**
+.. |STYLE142| replace:: **Cardinalità**
 
-.. |STYLE143| replace:: **Cardinalità**
+.. |STYLE143| replace:: **Proprietà**
 
-.. |STYLE144| replace:: **Proprietà**
+.. |STYLE144| replace:: **URI**
 
-.. |STYLE145| replace:: **URI**
+.. |STYLE145| replace:: **Gamma**
 
-.. |STYLE146| replace:: **Gamma**
+.. |STYLE146| replace:: **Cardinalità**
 
-.. |STYLE147| replace:: **Cardinalità**
+.. |STYLE147| replace:: **Proprietà**
 
-.. |STYLE148| replace:: **Proprietà**
+.. |STYLE148| replace:: **URI**
 
-.. |STYLE149| replace:: **URI**
+.. |STYLE149| replace:: **Gamma**
 
-.. |STYLE150| replace:: **Gamma**
+.. |STYLE150| replace:: **Cardinalità**
 
-.. |STYLE151| replace:: **Cardinalità**
+.. |STYLE151| replace:: **Proprietà**
 
-.. |STYLE152| replace:: **Proprietà**
+.. |STYLE152| replace:: **URI**
 
-.. |STYLE153| replace:: **URI**
+.. |STYLE153| replace:: **Gamma**
 
-.. |STYLE154| replace:: **Gamma**
+.. |STYLE154| replace:: **Cardinalità**
 
-.. |STYLE155| replace:: **Cardinalità**
+.. |STYLE155| replace:: **Nome della classe**
 
-.. |STYLE156| replace:: **Nome della classe**
+.. |STYLE156| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE157| replace:: **Obbligatorio / facoltativo**
+.. |STYLE157| replace:: **URI**
 
-.. |STYLE158| replace:: **URI**
+.. |STYLE158| replace:: *3.7.1.*
 
-.. |STYLE159| replace:: *3.7.1.*
+.. |STYLE159| replace:: *Identifier*
 
-.. |STYLE160| replace:: *Identifier*
+.. |STYLE160| replace:: **Proprietà**
 
-.. |STYLE161| replace:: **Proprietà**
+.. |STYLE161| replace:: **URI**
 
-.. |STYLE162| replace:: **URI**
+.. |STYLE162| replace:: **Gamma**
 
-.. |STYLE163| replace:: **Gamma**
+.. |STYLE163| replace:: **Cardinalità**
 
-.. |STYLE164| replace:: **Cardinalità**
+.. |STYLE164| replace:: **Proprietà**
 
-.. |STYLE165| replace:: **Proprietà**
+.. |STYLE165| replace:: **URI**
 
-.. |STYLE166| replace:: **URI**
+.. |STYLE166| replace:: **Gamma**
 
-.. |STYLE167| replace:: **Gamma**
+.. |STYLE167| replace:: **Cardinalità**
 
-.. |STYLE168| replace:: **Cardinalità**
+.. |STYLE168| replace:: **Proprietà**
 
-.. |STYLE169| replace:: **Proprietà**
+.. |STYLE169| replace:: **URI**
 
-.. |STYLE170| replace:: **URI**
+.. |STYLE170| replace:: **Gamma**
 
-.. |STYLE171| replace:: **Gamma**
+.. |STYLE171| replace:: **Cardinalità**
 
-.. |STYLE172| replace:: **Cardinalità**
+.. |STYLE172| replace:: **Nome della classe**
 
-.. |STYLE173| replace:: **Nome della classe**
+.. |STYLE173| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE174| replace:: **Obbligatorio / facoltativo**
+.. |STYLE174| replace:: **URI**
 
-.. |STYLE175| replace:: **URI**
+.. |STYLE175| replace:: **Proprietà**
 
-.. |STYLE176| replace:: **Proprietà**
+.. |STYLE176| replace:: **URI**
 
-.. |STYLE177| replace:: **URI**
+.. |STYLE177| replace:: **Gamma**
 
-.. |STYLE178| replace:: **Gamma**
+.. |STYLE178| replace:: **Cardinalità**
 
-.. |STYLE179| replace:: **Cardinalità**
+.. |STYLE179| replace:: **Proprietà**
 
-.. |STYLE180| replace:: **Proprietà**
+.. |STYLE180| replace:: **URI**
 
-.. |STYLE181| replace:: **URI**
+.. |STYLE181| replace:: **Gamma**
 
-.. |STYLE182| replace:: **Gamma**
+.. |STYLE182| replace:: **Cardinalità**
 
-.. |STYLE183| replace:: **Cardinalità**
+.. |STYLE183| replace:: **Proprietà**
 
-.. |STYLE184| replace:: **Proprietà**
+.. |STYLE184| replace:: **URI**
 
-.. |STYLE185| replace:: **URI**
+.. |STYLE185| replace:: **Gamma**
 
-.. |STYLE186| replace:: **Gamma**
+.. |STYLE186| replace:: **Cardinalità**
 
-.. |STYLE187| replace:: **Cardinalità**
+.. |STYLE187| replace:: **Nome della classe**
 
-.. |STYLE188| replace:: **Nome della classe**
+.. |STYLE188| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE189| replace:: **Obbligatorio / facoltativo**
+.. |STYLE189| replace:: **URI**
 
-.. |STYLE190| replace:: **URI**
+.. |STYLE190| replace:: **Proprietà**
 
-.. |STYLE191| replace:: **Proprietà**
+.. |STYLE191| replace:: **URI**
 
-.. |STYLE192| replace:: **URI**
+.. |STYLE192| replace:: **Gamma**
 
-.. |STYLE193| replace:: **Gamma**
+.. |STYLE193| replace:: **Cardinalità**
 
-.. |STYLE194| replace:: **Cardinalità**
+.. |STYLE194| replace:: **Proprietà**
 
-.. |STYLE195| replace:: **Proprietà**
+.. |STYLE195| replace:: **URI**
 
-.. |STYLE196| replace:: **URI**
+.. |STYLE196| replace:: **Gamma**
 
-.. |STYLE197| replace:: **Gamma**
+.. |STYLE197| replace:: **Cardinalità**
 
-.. |STYLE198| replace:: **Cardinalità**
+.. |STYLE198| replace:: **Proprietà**
 
-.. |STYLE199| replace:: **Proprietà**
+.. |STYLE199| replace:: **URI**
 
-.. |STYLE200| replace:: **URI**
+.. |STYLE200| replace:: **Gamma**
 
-.. |STYLE201| replace:: **Gamma**
+.. |STYLE201| replace:: **Cardinalità**
 
-.. |STYLE202| replace:: **Cardinalità**
+.. |STYLE202| replace:: **Proprietà**
 
-.. |STYLE203| replace:: **Proprietà**
+.. |STYLE203| replace:: **URI**
 
-.. |STYLE204| replace:: **URI**
+.. |STYLE204| replace:: **Gamma**
 
-.. |STYLE205| replace:: **Gamma**
+.. |STYLE205| replace:: **Cardinalità**
 
-.. |STYLE206| replace:: **Cardinalità**
+.. |STYLE206| replace:: **Proprietà**
 
-.. |STYLE207| replace:: **Proprietà**
+.. |STYLE207| replace:: **URI**
 
-.. |STYLE208| replace:: **URI**
+.. |STYLE208| replace:: **Gamma**
 
-.. |STYLE209| replace:: **Gamma**
+.. |STYLE209| replace:: **Cardinalità**
 
-.. |STYLE210| replace:: **Cardinalità**
+.. |STYLE210| replace:: **Proprietà**
 
-.. |STYLE211| replace:: **Proprietà**
+.. |STYLE211| replace:: **URI**
 
-.. |STYLE212| replace:: **URI**
+.. |STYLE212| replace:: **Gamma**
 
-.. |STYLE213| replace:: **Gamma**
+.. |STYLE213| replace:: **Cardinalità**
 
-.. |STYLE214| replace:: **Cardinalità**
+.. |STYLE214| replace:: **Nome della classe**
 
-.. |STYLE215| replace:: **Nome della classe**
+.. |STYLE215| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE216| replace:: **Obbligatorio / facoltativo**
+.. |STYLE216| replace:: **URI**
 
-.. |STYLE217| replace:: **URI**
+.. |STYLE217| replace:: **Proprietà**
 
-.. |STYLE218| replace:: **Proprietà**
+.. |STYLE218| replace:: **URI**
 
-.. |STYLE219| replace:: **URI**
+.. |STYLE219| replace:: **Gamma**
 
-.. |STYLE220| replace:: **Gamma**
+.. |STYLE220| replace:: **Cardinalità**
 
-.. |STYLE221| replace:: **Cardinalità**
+.. |STYLE221| replace:: **Proprietà**
 
-.. |STYLE222| replace:: **Proprietà**
+.. |STYLE222| replace:: **URI**
 
-.. |STYLE223| replace:: **URI**
+.. |STYLE223| replace:: **Gamma**
 
-.. |STYLE224| replace:: **Gamma**
+.. |STYLE224| replace:: **Cardinalità**
 
-.. |STYLE225| replace:: **Cardinalità**
+.. |STYLE225| replace:: **Proprietà**
 
-.. |STYLE226| replace:: **Proprietà**
+.. |STYLE226| replace:: **URI**
 
-.. |STYLE227| replace:: **URI**
+.. |STYLE227| replace:: **Gamma**
 
-.. |STYLE228| replace:: **Gamma**
+.. |STYLE228| replace:: **Cardinalità**
 
-.. |STYLE229| replace:: **Cardinalità**
+.. |STYLE229| replace:: **Proprietà**
 
-.. |STYLE230| replace:: **Proprietà**
+.. |STYLE230| replace:: **URI**
 
-.. |STYLE231| replace:: **URI**
+.. |STYLE231| replace:: **Gamma**
 
-.. |STYLE232| replace:: **Gamma**
+.. |STYLE232| replace:: **Cardinalità**
 
-.. |STYLE233| replace:: **Cardinalità**
+.. |STYLE233| replace:: **Nome della classe**
 
-.. |STYLE234| replace:: **Nome della classe**
+.. |STYLE234| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE235| replace:: **Obbligatorio / facoltativo**
+.. |STYLE235| replace:: **URI**
 
-.. |STYLE236| replace:: **URI**
+.. |STYLE236| replace:: **Proprietà**
 
-.. |STYLE237| replace:: **Proprietà**
+.. |STYLE237| replace:: **URI**
 
-.. |STYLE238| replace:: **URI**
+.. |STYLE238| replace:: **Gamma**
 
-.. |STYLE239| replace:: **Gamma**
+.. |STYLE239| replace:: **Cardinalità**
 
-.. |STYLE240| replace:: **Cardinalità**
+.. |STYLE240| replace:: **Proprietà**
 
-.. |STYLE241| replace:: **Proprietà**
+.. |STYLE241| replace:: **URI**
 
-.. |STYLE242| replace:: **URI**
+.. |STYLE242| replace:: **Gamma**
 
-.. |STYLE243| replace:: **Gamma**
+.. |STYLE243| replace:: **Cardinalità**
 
-.. |STYLE244| replace:: **Cardinalità**
+.. |STYLE244| replace:: **Proprietà**
 
-.. |STYLE245| replace:: **Proprietà**
+.. |STYLE245| replace:: **URI**
 
-.. |STYLE246| replace:: **URI**
+.. |STYLE246| replace:: **Gamma**
 
-.. |STYLE247| replace:: **Gamma**
+.. |STYLE247| replace:: **Cardinalità**
 
-.. |STYLE248| replace:: **Cardinalità**
+.. |STYLE248| replace:: **Proprietà**
 
-.. |STYLE249| replace:: **Proprietà**
+.. |STYLE249| replace:: **URI**
 
-.. |STYLE250| replace:: **URI**
+.. |STYLE250| replace:: **Gamma**
 
-.. |STYLE251| replace:: **Gamma**
+.. |STYLE251| replace:: **Cardinalità**
 
-.. |STYLE252| replace:: **Cardinalità**
+.. |STYLE252| replace:: **Proprietà**
 
-.. |STYLE253| replace:: **Proprietà**
+.. |STYLE253| replace:: **URI**
 
-.. |STYLE254| replace:: **URI**
+.. |STYLE254| replace:: **Gamma**
 
-.. |STYLE255| replace:: **Gamma**
+.. |STYLE255| replace:: **Cardinalità**
 
-.. |STYLE256| replace:: **Cardinalità**
+.. |STYLE256| replace:: **Proprietà**
 
-.. |STYLE257| replace:: **Proprietà**
+.. |STYLE257| replace:: **URI**
 
-.. |STYLE258| replace:: **URI**
+.. |STYLE258| replace:: **Gamma**
 
-.. |STYLE259| replace:: **Gamma**
+.. |STYLE259| replace:: **Cardinalità**
 
-.. |STYLE260| replace:: **Cardinalità**
+.. |STYLE260| replace:: **Nome della classe**
 
-.. |STYLE261| replace:: **Nome della classe**
+.. |STYLE261| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE262| replace:: **Obbligatorio / facoltativo**
+.. |STYLE262| replace:: **URI**
 
-.. |STYLE263| replace:: **URI**
+.. |STYLE263| replace:: **Proprietà**
 
-.. |STYLE264| replace:: **Proprietà**
+.. |STYLE264| replace:: **URI**
 
-.. |STYLE265| replace:: **URI**
+.. |STYLE265| replace:: **Gamma**
 
-.. |STYLE266| replace:: **Gamma**
+.. |STYLE266| replace:: **Cardinalità**
 
-.. |STYLE267| replace:: **Cardinalità**
+.. |STYLE267| replace:: **Proprietà**
 
-.. |STYLE268| replace:: **Proprietà**
+.. |STYLE268| replace:: **URI**
 
-.. |STYLE269| replace:: **URI**
+.. |STYLE269| replace:: **Gamma**
 
-.. |STYLE270| replace:: **Gamma**
+.. |STYLE270| replace:: **Cardinalità**
 
-.. |STYLE271| replace:: **Cardinalità**
+.. |STYLE271| replace:: **Proprietà**
 
-.. |STYLE272| replace:: **Proprietà**
+.. |STYLE272| replace:: **URI**
 
-.. |STYLE273| replace:: **URI**
+.. |STYLE273| replace:: **Gamma**
 
-.. |STYLE274| replace:: **Gamma**
+.. |STYLE274| replace:: **Cardinalità**
 
-.. |STYLE275| replace:: **Cardinalità**
+.. |STYLE275| replace:: **Proprietà**
 
-.. |STYLE276| replace:: **Proprietà**
+.. |STYLE276| replace:: **URI**
 
-.. |STYLE277| replace:: **URI**
+.. |STYLE277| replace:: **Gamma**
 
-.. |STYLE278| replace:: **Gamma**
+.. |STYLE278| replace:: **Cardinalità**
 
-.. |STYLE279| replace:: **Cardinalità**
+.. |STYLE279| replace:: **Proprietà**
 
-.. |STYLE280| replace:: **Proprietà**
+.. |STYLE280| replace:: **URI**
 
-.. |STYLE281| replace:: **URI**
+.. |STYLE281| replace:: **Gamma**
 
-.. |STYLE282| replace:: **Gamma**
+.. |STYLE282| replace:: **Cardinalità**
 
-.. |STYLE283| replace:: **Cardinalità**
+.. |STYLE283| replace:: **Proprietà**
 
-.. |STYLE284| replace:: **Proprietà**
+.. |STYLE284| replace:: **URI**
 
-.. |STYLE285| replace:: **URI**
+.. |STYLE285| replace:: **Gamma**
 
-.. |STYLE286| replace:: **Gamma**
+.. |STYLE286| replace:: **Cardinalità**
 
-.. |STYLE287| replace:: **Cardinalità**
+.. |STYLE287| replace:: **Nome della classe**
 
-.. |STYLE288| replace:: **Nome della classe**
+.. |STYLE288| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE289| replace:: **Obbligatorio / facoltativo**
+.. |STYLE289| replace:: **URI**
 
-.. |STYLE290| replace:: **URI**
+.. |STYLE290| replace:: **Nome della classe**
 
-.. |STYLE291| replace:: **Nome della classe**
+.. |STYLE291| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE292| replace:: **Obbligatorio / facoltativo**
+.. |STYLE292| replace:: **URI**
 
-.. |STYLE293| replace:: **URI**
+.. |STYLE293| replace:: **Proprietà**
 
-.. |STYLE294| replace:: **Proprietà**
+.. |STYLE294| replace:: **URI**
 
-.. |STYLE295| replace:: **URI**
+.. |STYLE295| replace:: **Gamma**
 
-.. |STYLE296| replace:: **Gamma**
+.. |STYLE296| replace:: **Cardinalità**
 
-.. |STYLE297| replace:: **Cardinalità**
+.. |STYLE297| replace:: **Proprietà**
 
-.. |STYLE298| replace:: **Proprietà**
+.. |STYLE298| replace:: **URI**
 
-.. |STYLE299| replace:: **URI**
+.. |STYLE299| replace:: **Gamma**
 
-.. |STYLE300| replace:: **Gamma**
+.. |STYLE300| replace:: **Cardinalità**
 
-.. |STYLE301| replace:: **Cardinalità**
+.. |STYLE301| replace:: **Proprietà**
 
-.. |STYLE302| replace:: **Proprietà**
+.. |STYLE302| replace:: **URI**
 
-.. |STYLE303| replace:: **URI**
+.. |STYLE303| replace:: **Gamma**
 
-.. |STYLE304| replace:: **Gamma**
+.. |STYLE304| replace:: **Cardinalità**
 
-.. |STYLE305| replace:: **Cardinalità**
+.. |STYLE305| replace:: **Proprietà**
 
-.. |STYLE306| replace:: **Proprietà**
+.. |STYLE306| replace:: **URI**
 
-.. |STYLE307| replace:: **URI**
+.. |STYLE307| replace:: **Gamma**
 
-.. |STYLE308| replace:: **Gamma**
+.. |STYLE308| replace:: **Cardinalità**
 
-.. |STYLE309| replace:: **Cardinalità**
+.. |STYLE309| replace:: **Proprietà**
 
-.. |STYLE310| replace:: **Proprietà**
+.. |STYLE310| replace:: **URI**
 
-.. |STYLE311| replace:: **URI**
+.. |STYLE311| replace:: **Gamma**
 
-.. |STYLE312| replace:: **Gamma**
+.. |STYLE312| replace:: **Cardinalità**
 
-.. |STYLE313| replace:: **Cardinalità**
+.. |STYLE313| replace:: **Nome della classe**
 
-.. |STYLE314| replace:: **Nome della classe**
+.. |STYLE314| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE315| replace:: **Obbligatorio / facoltativo**
+.. |STYLE315| replace:: **URI**
 
-.. |STYLE316| replace:: **URI**
+.. |STYLE316| replace:: **Proprietà**
 
-.. |STYLE317| replace:: **Proprietà**
+.. |STYLE317| replace:: **URI**
 
-.. |STYLE318| replace:: **URI**
+.. |STYLE318| replace:: **Gamma**
 
-.. |STYLE319| replace:: **Gamma**
+.. |STYLE319| replace:: **Cardinalità**
 
-.. |STYLE320| replace:: **Cardinalità**
+.. |STYLE320| replace:: **Proprietà**
 
-.. |STYLE321| replace:: **Proprietà**
+.. |STYLE321| replace:: **URI**
 
-.. |STYLE322| replace:: **URI**
+.. |STYLE322| replace:: **Gamma**
 
-.. |STYLE323| replace:: **Gamma**
+.. |STYLE323| replace:: **Cardinalità**
 
-.. |STYLE324| replace:: **Cardinalità**
+.. |STYLE324| replace:: **Proprietà**
 
-.. |STYLE325| replace:: **Proprietà**
+.. |STYLE325| replace:: **URI**
 
-.. |STYLE326| replace:: **URI**
+.. |STYLE326| replace:: **Gamma**
 
-.. |STYLE327| replace:: **Gamma**
+.. |STYLE327| replace:: **Cardinalità**
 
-.. |STYLE328| replace:: **Cardinalità**
+.. |STYLE328| replace:: **Proprietà**
 
-.. |STYLE329| replace:: **Proprietà**
+.. |STYLE329| replace:: **URI**
 
-.. |STYLE330| replace:: **URI**
+.. |STYLE330| replace:: **Gamma**
 
-.. |STYLE331| replace:: **Gamma**
+.. |STYLE331| replace:: **Cardinalità**
 
-.. |STYLE332| replace:: **Cardinalità**
+.. |STYLE332| replace:: **Nome della classe**
 
-.. |STYLE333| replace:: **Nome della classe**
+.. |STYLE333| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE334| replace:: **Obbligatorio / facoltativo**
+.. |STYLE334| replace:: **URI**
 
-.. |STYLE335| replace:: **URI**
+.. |STYLE335| replace:: **Proprietà**
 
-.. |STYLE336| replace:: **Proprietà**
+.. |STYLE336| replace:: **URI**
 
-.. |STYLE337| replace:: **URI**
+.. |STYLE337| replace:: **Gamma**
 
-.. |STYLE338| replace:: **Gamma**
+.. |STYLE338| replace:: **Cardinalità**
 
-.. |STYLE339| replace:: **Cardinalità**
+.. |STYLE339| replace:: **Nome della classe**
 
-.. |STYLE340| replace:: **Nome della classe**
+.. |STYLE340| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE341| replace:: **Obbligatorio / facoltativo**
+.. |STYLE341| replace:: **URI**
 
-.. |STYLE342| replace:: **URI**
+.. |STYLE342| replace:: **Proprietà**
 
-.. |STYLE343| replace:: **Proprietà**
+.. |STYLE343| replace:: **URI**
 
-.. |STYLE344| replace:: **URI**
+.. |STYLE344| replace:: **Gamma**
 
-.. |STYLE345| replace:: **Gamma**
+.. |STYLE345| replace:: **Cardinalità**
 
-.. |STYLE346| replace:: **Cardinalità**
+.. |STYLE346| replace:: **Nome della classe**
 
-.. |STYLE347| replace:: **Nome della classe**
+.. |STYLE347| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE348| replace:: **Obbligatorio / facoltativo**
+.. |STYLE348| replace:: **URI**
 
-.. |STYLE349| replace:: **URI**
+.. |STYLE349| replace:: **Nome della classe**
 
-.. |STYLE350| replace:: **Nome della classe**
+.. |STYLE350| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE351| replace:: **Obbligatorio / facoltativo**
+.. |STYLE351| replace:: **URI**
 
-.. |STYLE352| replace:: **URI**
+.. |STYLE352| replace:: **Nome della classe**
 
-.. |STYLE353| replace:: **Nome della classe**
+.. |STYLE353| replace:: **Obbligatorio / facoltativo**
 
-.. |STYLE354| replace:: **Obbligatorio / facoltativo**
+.. |STYLE354| replace:: **URI**
 
-.. |STYLE355| replace:: **URI**
+.. |STYLE355| replace:: **Proprietà**
 
-.. |STYLE356| replace:: **Proprietà**
+.. |STYLE356| replace:: **URI**
 
-.. |STYLE357| replace:: **URI**
+.. |STYLE357| replace:: **Gamma**
 
-.. |STYLE358| replace:: **Gamma**
-
-.. |STYLE359| replace:: **Cardinalità**
+.. |STYLE358| replace:: **Cardinalità**
 
 
 .. |LINK1| raw:: html
