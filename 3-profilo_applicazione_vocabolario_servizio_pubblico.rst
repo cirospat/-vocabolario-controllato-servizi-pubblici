@@ -45,7 +45,7 @@ Tutte le classi includono la proprietà obbligatoria dell'identificatore che nel
 
  
 
-Il significato dei termini DEVE, NON DEVE, DOVREBBE e POTREBBE in questa sezione e nelle seguenti sezioni sono come definiti nella RFC 2119\ [#F1]_\  [11] .
+Il significato dei termini DEVE, NON DEVE, DOVREBBE e POTREBBE in questa sezione e nelle seguenti sezioni sono come definiti nella \ |LINK1|\ .
 
  
 
@@ -64,7 +64,7 @@ Inoltre, la proposta in " Elenco dettagliato di classi e proprietà obbligatori
 3.2. La classe di servizio pubblico
 ***********************************
 
-Questa classe rappresenta lo stesso servizio pubblico, come descritto in un catalogo di servizi pubblici. Un servizio pubblico è un insieme obbligatorio o discrezionale di attività svolte o in grado di essere eseguite da o per conto di un'organizzazione pubblica, finanziate con fondi pubblici e derivanti da politiche pubbliche. I servizi possono essere a beneficio di un individuo, un'azienda o altra autorità pubblica o gruppi di uno di questi. Un servizio esiste indipendentemente dal fatto che sia usato o meno, e il termine "beneficio" può essere applicato nel senso di consentire l'adempimento di un obbligo. Come definito nella versione rivista del Quadro europeo di interoperabilità\ [#F2]_\ , un servizio pubblico europeo comprende qualsiasi servizio fornito da pubbliche amministrazioni in Europa, o da altre organizzazioni a loro nome, a imprese, cittadini o altre amministrazioni pubbliche.
+Questa classe rappresenta lo stesso servizio pubblico, come descritto in un catalogo di servizi pubblici. Un servizio pubblico è un insieme obbligatorio o discrezionale di attività svolte o in grado di essere eseguite da o per conto di un'organizzazione pubblica, finanziate con fondi pubblici e derivanti da politiche pubbliche. I servizi possono essere a beneficio di un individuo, un'azienda o altra autorità pubblica o gruppi di uno di questi. Un servizio esiste indipendentemente dal fatto che sia usato o meno, e il termine "beneficio" può essere applicato nel senso di consentire l'adempimento di un obbligo. Come definito nella versione rivista del Quadro europeo di \ |LINK2|\ , un servizio pubblico europeo comprende qualsiasi servizio fornito da pubbliche amministrazioni in Europa, o da altre organizzazioni a loro nome, a imprese, cittadini o altre amministrazioni pubbliche.
 
 
 +-----------------+------------+-------------------+
@@ -261,7 +261,7 @@ Questa proprietà rappresenta un servizio pubblico correlato alla particolare is
 3.2.13. Criterion
 -----------------
 
-Collega un servizio pubblico a una classe che descrive i criteri per la necessità o l'utilizzo del servizio, come la residenza in un dato luogo, il superamento di una certa età, ecc. La classe Criterion è definita nel vocabolario Core Criterion e Core Evidence Vocabulary\ [#F3]_\  [14] .
+Collega un servizio pubblico a una classe che descrive i criteri per la necessità o l'utilizzo del servizio, come la residenza in un dato luogo, il superamento di una certa età, ecc. La classe Criterion è definita nel vocabolario Core Criterion e \ |LINK3|\ .
 
  
 
@@ -378,9 +378,9 @@ La proprietà follows collega un servizio pubblico alla / e regola / e in bas
 
  
 
-Un uso comune della proprietà spaziale sarà la definizione delle unità territoriali amministrative, in genere un paese o una regione, in cui è disponibile un servizio pubblico. L'Ufficio delle pubblicazioni dell'Unione europea offre una serie di URI\ [#F4]_\  adatto a questo scopo, ad esempio Malta è identificata da \ |LINK1|\  ,
+Un uso comune della proprietà spaziale sarà la definizione delle unità territoriali amministrative, in genere un paese o una regione, in cui è disponibile un servizio pubblico. L'Ufficio delle pubblicazioni dell'Unione europea offre una serie di \ |LINK4|\  adatto a questo scopo, ad esempio Malta è identificata da \ |LINK5|\  ,
 
-Fiandre occidentali da \ |LINK2|\   e così via.
+Fiandre occidentali da \ |LINK6|\   e così via.
 
  
 
@@ -445,7 +445,7 @@ Il valore di questa proprietà è il tempo (stimato) necessario per l'esecuzione
 
  
 
-Le durate iniziano con una P maiuscola seguita dal numero e dal relativo designatore, formalmente: P [n] Y [n] M [n] DT [n] H [n] M [n] S, dove Y è per anni, M per mesi ecc. Si noti che i periodi e le ore sono separati da una T maiuscola che disambigura anche M come mese (P2M significa 2 mesi) o minuto (PT2M significa 2 minuti). Le durate possono anche essere definite come un numero di settimane, quindi P4W significa 4 settimane. Una spiegazione completa è fornita nella pagina di Wikipedia\ [#F5]_\  che fa riferimento allo standard ISO ufficiale
+Le durate iniziano con una P maiuscola seguita dal numero e dal relativo designatore, formalmente: P [n] Y [n] M [n] DT [n] H [n] M [n] S, dove Y è per anni, M per mesi ecc. Si noti che i periodi e le ore sono separati da una T maiuscola che disambigura anche M come mese (P2M significa 2 mesi) o minuto (PT2M significa 2 minuti). Le durate possono anche essere definite come un numero di settimane, quindi P4W significa 4 settimane. Una spiegazione completa è fornita nella pagina di \ |LINK7|\  che fa riferimento allo standard ISO \ |LINK8|\ .
 
  
 
@@ -535,7 +535,7 @@ This property represents an Identifier for the Event.
 +--------------+--------------+--------------+--------------+
 |\ |STYLE110|\ |\ |STYLE111|\ |\ |STYLE112|\ |\ |STYLE113|\ |
 +--------------+--------------+--------------+--------------+
-|Event         |dct:identifier|Text\ [#F7]_\ |1..1          |
+|Event         |dct:identifier|Text\ [#F1]_\ |1..1          |
 +--------------+--------------+--------------+--------------+
 
 .. _h74251854102827545a342f615d5947:
@@ -633,7 +633,7 @@ La classe Life Event rappresenta un evento o una situazione importante   nel
 3.6. La classe del set di dati del servizio pubblico
 ****************************************************
 
-Il set di dati del servizio pubblico, è una specializzazione della classe Dataset del Vocabolario del catalogo dati (DCAT)\ [#F8]_\  e eredita tutte le sue proprietà. La classe descrive i metadati di dove viene descritto il set di dati, ad esempio su un portale di servizio pubblico regionale e / o su un portale nazionale di eGovernment.
+Il set di dati del servizio pubblico, è una specializzazione della classe Dataset del Vocabolario del catalogo dati (\ |LINK9|\ ) e eredita tutte le sue proprietà. La classe descrive i metadati di dove viene descritto il set di dati, ad esempio su un portale di servizio pubblico regionale e / o su un portale nazionale di eGovernment.
 
  
 
@@ -659,7 +659,7 @@ Questa proprietà rappresenta un identificatore per il set di dati del servizio 
 +--------------+-------------------+---------------+--------------+
 |\ |STYLE139|\ |\ |STYLE140|\      |\ |STYLE141|\  |\ |STYLE142|\ |
 +--------------+-------------------+---------------+--------------+
-|identificatore|DCT: identificatore|Testo\ [#F9]_\ |1..1          |
+|identificatore|DCT: identificatore|Testo\ [#F2]_\ |1..1          |
 +--------------+-------------------+---------------+--------------+
 
 .. _h19303ad605f59767e1e1835311c775f:
@@ -734,11 +734,11 @@ Questa proprietà rappresenta un identificatore per la partecipazione.
 
  
 
-+--------------+-------------------+-----------------+--------------+
-|\ |STYLE160|\ |\ |STYLE161|\      |\ |STYLE162|\    |\ |STYLE163|\ |
-+--------------+-------------------+-----------------+--------------+
-|identificatore|DCT: identificatore|Testo\ [#F10]_\  |1..1          |
-+--------------+-------------------+-----------------+--------------+
++--------------+-------------------+----------------+--------------+
+|\ |STYLE160|\ |\ |STYLE161|\      |\ |STYLE162|\   |\ |STYLE163|\ |
++--------------+-------------------+----------------+--------------+
+|identificatore|DCT: identificatore|Testo\ [#F3]_\  |1..1          |
++--------------+-------------------+----------------+--------------+
 
 .. _h13713867743c3f56716926a6a142738:
 
@@ -777,7 +777,7 @@ Fornisce il ruolo svolto. Questo dovrebbe essere fornito usando un vocabolario 
 3.8. La classe di requisiti per il criterio
 *******************************************
 
-Non tutti i servizi pubblici sono necessari o utilizzabili da tutti. Ad esempio, il servizio di visto gestito da paesi europei non è necessario per i cittadini europei, ma è richiesto da alcuni cittadini di altri paesi, oppure i servizi pubblici che offrono sussidi di disoccupazione e le sovvenzioni si rivolgono a specifici gruppi sociali. Il CPSV riutilizza il Vocabolario del Core Criterion e del Core Evidence\ [#F11]_\  per questa classe. CCCEV fornisce ulteriori dettagli ma la classe Requisito criterio ha tre proprietà obbligatorie.
+Non tutti i servizi pubblici sono necessari o utilizzabili da tutti. Ad esempio, il servizio di visto gestito da paesi europei non è necessario per i cittadini europei, ma è richiesto da alcuni cittadini di altri paesi, oppure i servizi pubblici che offrono sussidi di disoccupazione e le sovvenzioni si rivolgono a specifici gruppi sociali. Il CPSV riutilizza il Vocabolario del Core Criterion e del \ |LINK10|\  per questa classe. CCCEV fornisce ulteriori dettagli ma la classe Requisito criterio ha tre proprietà obbligatorie.
 
  
 
@@ -798,11 +798,11 @@ Questa proprietà rappresenta un identificatore per il criterio di criterio .
 
  
 
-+--------------+-------------------+-----------------+--------------+
-|\ |STYLE175|\ |\ |STYLE176|\      |\ |STYLE177|\    |\ |STYLE178|\ |
-+--------------+-------------------+-----------------+--------------+
-|identificatore|DCT: identificatore|Testo\ [#F12]_\  |1..1          |
-+--------------+-------------------+-----------------+--------------+
++--------------+-------------------+----------------+--------------+
+|\ |STYLE175|\ |\ |STYLE176|\      |\ |STYLE177|\   |\ |STYLE178|\ |
++--------------+-------------------+----------------+--------------+
+|identificatore|DCT: identificatore|Testo\ [#F4]_\  |1..1          |
++--------------+-------------------+----------------+--------------+
 
 .. _h6c4a3e56324b2d76582c7c8322f7572:
 
@@ -872,11 +872,11 @@ Questa proprietà rappresenta un identificatore per il pezzo di prova.
 
  
 
-+--------------+-------------------+----------------+--------------+
-|\ |STYLE190|\ |\ |STYLE191|\      |\ |STYLE192|\   |\ |STYLE193|\ |
-+--------------+-------------------+----------------+--------------+
-|identificatore|DCT: identificatore|Testo\ [#F13]_\ |1..1          |
-+--------------+-------------------+----------------+--------------+
++--------------+-------------------+---------------+--------------+
+|\ |STYLE190|\ |\ |STYLE191|\      |\ |STYLE192|\  |\ |STYLE193|\ |
++--------------+-------------------+---------------+--------------+
+|identificatore|DCT: identificatore|Testo\ [#F5]_\ |1..1          |
++--------------+-------------------+---------------+--------------+
 
 .. _h531136505057514e2d7c70145c504b4d:
 
@@ -983,11 +983,11 @@ Questa proprietà rappresenta un identificatore per l'output.
 
  
 
-+--------------+-------------------+-----------------+--------------+
-|\ |STYLE217|\ |\ |STYLE218|\      |\ |STYLE219|\    |\ |STYLE220|\ |
-+--------------+-------------------+-----------------+--------------+
-|identificatore|DCT: identificatore|Testo\ [#F14]_\  |1..1          |
-+--------------+-------------------+-----------------+--------------+
++--------------+-------------------+----------------+--------------+
+|\ |STYLE217|\ |\ |STYLE218|\      |\ |STYLE219|\   |\ |STYLE220|\ |
++--------------+-------------------+----------------+--------------+
+|identificatore|DCT: identificatore|Testo\ [#F6]_\  |1..1          |
++--------------+-------------------+----------------+--------------+
 
 .. _h5e2a40692d14651511eb7e4581580:
 
@@ -1058,11 +1058,11 @@ La classe di costo rappresenta tutti i costi relativi all'esecuzione di un servi
 
 Questa proprietà rappresenta un identificatore per il costo.
 
-+--------------+-------------------+-----------------+--------------+
-|\ |STYLE236|\ |\ |STYLE237|\      |\ |STYLE238|\    |\ |STYLE239|\ |
-+--------------+-------------------+-----------------+--------------+
-|identificatore|DCT: identificatore|Testo\ [#F15]_\  |1..1          |
-+--------------+-------------------+-----------------+--------------+
++--------------+-------------------+----------------+--------------+
+|\ |STYLE236|\ |\ |STYLE237|\      |\ |STYLE238|\   |\ |STYLE239|\ |
++--------------+-------------------+----------------+--------------+
+|identificatore|DCT: identificatore|Testo\ [#F7]_\  |1..1          |
++--------------+-------------------+----------------+--------------+
 
 .. _h535645645b675c494956a5f5f355466:
 
@@ -1167,11 +1167,11 @@ Questa proprietà rappresenta un identificatore per il canale.
 
  
 
-+--------------+-------------------+-----------------+--------------+
-|\ |STYLE263|\ |\ |STYLE264|\      |\ |STYLE265|\    |\ |STYLE266|\ |
-+--------------+-------------------+-----------------+--------------+
-|identificatore|DCT: identificatore|Testo \ |LINK3|\ |1..1          |
-+--------------+-------------------+-----------------+--------------+
++--------------+-------------------+---------------+--------------+
+|\ |STYLE263|\ |\ |STYLE264|\      |\ |STYLE265|\  |\ |STYLE266|\ |
++--------------+-------------------+---------------+--------------+
+|identificatore|DCT: identificatore|Testo\ [#F8]_\ |1..1          |
++--------------+-------------------+---------------+--------------+
 
 .. _h4245fd163f3e2f624c4d6e521820a:
 
@@ -1223,7 +1223,7 @@ Nella maggior parte dei casi, le prove richieste per utilizzare un servizio pubb
 3.12.5. Orari di apertura
 -------------------------
 
-Questa proprietà rappresenta i normali orari di apertura di un canale. Il valore dovrebbe seguire il formato flessibile definito per la proprietà degli orari di apertura di schema.org\ [#F16]_\ . Seguendo questa struttura, i giorni della settimana sono rappresentati da due codici lettera (Mo, Tu, We, Th, Fr, Sa, Su). Le liste devono essere separate da una virgola (ad esempio: Mo, We, Fr) e periodi separati da un trattino (ad esempio: Mo-Fr).
+Questa proprietà rappresenta i normali orari di apertura di un canale. Il valore dovrebbe seguire il formato flessibile definito per la proprietà degli orari di apertura di \ |LINK11|\ . Seguendo questa struttura, i giorni della settimana sono rappresentati da due codici lettera (Mo, Tu, We, Th, Fr, Sa, Su). Le liste devono essere separate da una virgola (ad esempio: Mo, We, Fr) e periodi separati da un trattino (ad esempio: Mo-Fr).
 
  
 
@@ -1244,7 +1244,7 @@ Se è opportuno aggiungere ore di apertura, questo segue il giorno quindi se un 
 3.12.6. Restrizione di disponibilità
 ------------------------------------
 
-Questa proprietà collega un canale a informazioni su quando il canale non è disponibile, ignorando le informazioni generali sull'orario di apertura ( 3.12.5). I dettagli sono forniti utilizzando la classe Specificazione ore di apertura (sezione 3.13).
+Questa proprietà collega un canale a informazioni su quando il canale non è disponibile, ignorando le informazioni generali sull'orario di apertura (3.12.5). I dettagli sono forniti utilizzando la classe Specificazione ore di apertura (sezione 3.13).
 
  
 
@@ -1261,7 +1261,7 @@ Questa proprietà collega un canale a informazioni su quando il canale non è�
 3.13. La classe di specificazione delle ore di apertura
 *******************************************************
 
-Il CPSV-AP utilizza la proprietà openingHours di schema.org (sezione 3.12.5 ) per fornire dettagli sulle operazioni regolari. La specifica delle ore di apertura\ [#F17]_\ . La classe può essere utilizzata per fornire dettagli su circostanze eccezionali, come la chiusura nei giorni festivi, che è codificata (in Turtle), quindi:
+Il CPSV-AP utilizza la proprietà openingHours di schema.org (sezione 3.12.5 ) per fornire dettagli sulle operazioni regolari. La specifica delle \ |LINK12|\ . La classe può essere utilizzata per fornire dettagli su circostanze eccezionali, come la chiusura nei giorni festivi, che è codificata (in Turtle), quindi:
 
 ex: PublicHolidayClosed a schema: OpeningHoursSpecification;
 
@@ -1321,11 +1321,11 @@ Questa proprietà rappresenta un identificatore per la regola.
 
  
 
-+--------------+-------------------+-----------------+--------------+
-|\ |STYLE293|\ |\ |STYLE294|\      |\ |STYLE295|\    |\ |STYLE296|\ |
-+--------------+-------------------+-----------------+--------------+
-|identificatore|DCT: identificatore|Testo\ [#F18]_\  |1..1          |
-+--------------+-------------------+-----------------+--------------+
++--------------+-------------------+----------------+--------------+
+|\ |STYLE293|\ |\ |STYLE294|\      |\ |STYLE295|\   |\ |STYLE296|\ |
++--------------+-------------------+----------------+--------------+
+|identificatore|DCT: identificatore|Testo\ [#F9]_\  |1..1          |
++--------------+-------------------+----------------+--------------+
 
  
 
@@ -1435,7 +1435,7 @@ Questa proprietà rappresenta un identificatore per l'agente.
 +--------------+-------------------+-----------------+--------------+
 |\ |STYLE320|\ |\ |STYLE321|\      |\ |STYLE322|\    |\ |STYLE323|\ |
 +--------------+-------------------+-----------------+--------------+
-|identificatore|DCT: identificatore|Testo\ [#F19]_\  |1..1          |
+|identificatore|DCT: identificatore|Testo\ [#F10]_\  |1..1          |
 +--------------+-------------------+-----------------+--------------+
 
 .. _h4d7576676f7e3d7c36151756e5a3ff:
@@ -1479,7 +1479,7 @@ Questa classe rappresenta la legislazione, la politica o le politiche che si cel
 
  
 
-La definizione e le proprietà della classe di risorse legali nel CPSV-AP sono allineate con l'ontologia inclusa in "Conclusioni del Consiglio che invitano l'introduzione dell'identificatore della legislazione europea (ELI)"\ [#F20]_\ .
+La definizione e le proprietà della classe di risorse legali nel CPSV-AP sono allineate con l'ontologia inclusa in "Conclusioni del Consiglio che invitano l'introduzione dell'identificatore della legislazione europea (\ |LINK13|\ )".
 
  
 
@@ -1515,7 +1515,7 @@ Questa proprietà rappresenta un'altra istanza della classe di risorse legali�
 3.17. La classe di organizzazione pubblica
 ******************************************
 
-Il CPSV-AP riutilizza il Vocabolario Core Public Organization\ [#F21]_\  che definisce il concetto di organizzazione pubblica e proprietà e relazioni associate. Si basa in gran parte sull'ontologia dell'organizzazione W3C
+Il CPSV-AP riutilizza il Vocabolario \ |LINK14|\  che definisce il concetto di organizzazione pubblica e proprietà e relazioni associate. Si basa in gran parte sull'\ |LINK15|\ .
 
  
 
@@ -1533,7 +1533,7 @@ All'interno di CPSV-AP sono obbligatorie le seguenti proprietà:
 
 * spaziale
 
-Il valore di quest'ultimo dovrebbe essere un URI delle Unità territoriali amministrative\ [#F23]_\  Elenco delle autorità denominate gestite dal registro dei metadati dell'Ufficio delle pubblicazioni.
+Il valore di quest'ultimo dovrebbe essere un URI delle \ |LINK16|\  Elenco delle autorità denominate gestite dal registro dei metadati dell'Ufficio delle pubblicazioni.
 
  
 
@@ -1573,7 +1573,7 @@ Questa classe rappresenta qualsiasi concetto che possa essere utilizzato per cl
 
  
 
-In questo contesto, il CPSV-AP riutilizza il Concetto\ [#F24]_\  classe come definita nel sistema di organizzazione della conoscenza semplice SKOS
+In questo contesto, il CPSV-AP riutilizza il \ |LINK17|\  classe come definita nel sistema di organizzazione della conoscenza semplice \ |LINK18|\  . Per descrivere gli attributi di un concetto (etichette, etichette preferite, etichette alternative, definizione ...) facciamo riferimento a SKOS.
 
  
 
@@ -1594,11 +1594,11 @@ Il Concetto può o non può appartenere a (membro) una certa Collezione (sezione
 3.20. La classe di raccolta
 ***************************
 
-Questa classe rappresenta la Collezione a cui appartiene un Concetto (sezione 3.19 ). Raggruppare concetti diversi definisce un vocabolario controllato.
+Questa classe rappresenta la Collezione a cui appartiene un Concetto (sezione 3.19). Raggruppare concetti diversi definisce un vocabolario controllato.
 
  
 
-In questo contesto, il CPSV-AP riutilizza la Collezione\ [#F26]_\  classe come definita nel sistema di organizzazione della conoscenza semplice SKOS
+In questo contesto, il CPSV-AP riutilizza la \ |LINK19|\  classe come definita nel sistema di organizzazione della conoscenza semplice \ |LINK20|\ . Per descrivere gli attributi di una collezione (etichette, etichette preferite, etichette alternative, definizione ...) facciamo riferimento a SKOS.
 
  
 
@@ -2358,44 +2358,95 @@ La proprietà Member , come definita in SKOS, consente di indicare i concett
 
 .. |LINK1| raw:: html
 
-    <a href="http://publications.europa.eu/resource/authority/atu/MLT" target="_blank">http://publications.europa.eu/resource/authority/atu/MLT</a>
+    <a href="https://www.ietf.org/rfc/rfc2119.txt" target="_blank">RFC 2119</a>
 
 .. |LINK2| raw:: html
 
-    <a href="http://publications.europa.eu/resource/authority/atu/BEL_PR_WVL" target="_blank">http://publications.europa.eu/resource/authority/atu/BEL_PR_WVL</a>
+    <a href="http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf" target="_blank">interoperabilità</a>
 
 .. |LINK3| raw:: html
 
-    <a href="https://translate.googleusercontent.com/translate_f#_ftn9" target="_blank">[9]</a>
+    <a href="https://joinup.ec.europa.eu/asset/criterion_evidence_cv/description" target="_blank">Core Evidence Vocabulary</a>
+
+.. |LINK4| raw:: html
+
+    <a href="http://publications.europa.eu/resource/authority/atu/" target="_blank">URI</a>
+
+.. |LINK5| raw:: html
+
+    <a href="http://publications.europa.eu/resource/authority/atu/MLT" target="_blank">http://publications.europa.eu/resource/authority/atu/MLT</a>
+
+.. |LINK6| raw:: html
+
+    <a href="http://publications.europa.eu/resource/authority/atu/BEL_PR_WVL" target="_blank">http://publications.europa.eu/resource/authority/atu/BEL_PR_WVL</a>
+
+.. |LINK7| raw:: html
+
+    <a href="https://en.wikipedia.org/wiki/ISO_8601#Durations" target="_blank">Wikipedia</a>
+
+.. |LINK8| raw:: html
+
+    <a href="http://www.iso.org/iso/catalogue_detail?csnumber=40874" target="_blank">ufficiale</a>
+
+.. |LINK9| raw:: html
+
+    <a href="https://www.w3.org/TR/vocab-dcat/#class-dataset" target="_blank">DCAT</a>
+
+.. |LINK10| raw:: html
+
+    <a href="https://joinup.ec.europa.eu/asset/criterion_evidence_cv/description" target="_blank">Core Evidence</a>
+
+.. |LINK11| raw:: html
+
+    <a href="http://schema.org/openingHours" target="_blank">schema.org</a>
+
+.. |LINK12| raw:: html
+
+    <a href="http://schema.org/OpeningHoursSpecification" target="_blank">ore di apertura</a>
+
+.. |LINK13| raw:: html
+
+    <a href="http://publications.europa.eu/mdr/eli/" target="_blank">ELI</a>
+
+.. |LINK14| raw:: html
+
+    <a href="https://joinup.ec.europa.eu/asset/cpov/asset_release/all" target="_blank">Core Public Organization</a>
+
+.. |LINK15| raw:: html
+
+    <a href="http://www.w3.org/TR/vocab-org/" target="_blank">ontologia dell'organizzazione W3C</a>
+
+.. |LINK16| raw:: html
+
+    <a href="http://publications.europa.eu/mdr/authority/atu/" target="_blank">Unità territoriali amministrative</a>
+
+.. |LINK17| raw:: html
+
+    <a href="https://www.w3.org/TR/skos-reference/#concepts" target="_blank">Concetto</a>
+
+.. |LINK18| raw:: html
+
+    <a href="https://www.w3.org/TR/skos-reference/" target="_blank">SKOS</a>
+
+.. |LINK19| raw:: html
+
+    <a href="https://www.w3.org/TR/skos-reference/#concepts" target="_blank">Collezione</a>
+
+.. |LINK20| raw:: html
+
+    <a href="https://www.w3.org/TR/skos-reference/" target="_blank">SKOS</a>
 
 
 
 .. rubric:: Footnotes
 
-.. [#f1]   `https://www.ietf.org/rfc/rfc2119.txt <https://www.ietf.org/rfc/rfc2119.txt>`__  
-.. [#f2]   `http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf <http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf>`__  
-.. [#f3]   `https://joinup.ec.europa.eu/asset/criterion_evidence_cv/description <https://joinup.ec.europa.eu/asset/criterion_evidence_cv/description>`__  
-.. [#f4]   `http://publications.europa.eu/resource/authority/atu/ <http://publications.europa.eu/resource/authority/atu/>`__  
-.. [#f5]   `https://en.wikipedia.org/wiki/ISO_8601#Durations <https://en.wikipedia.org/wiki/ISO_8601#Durations>`__  
-.. [#f6]   `http://www.iso.org/iso/catalogue_detail?csnumber=40874 <http://www.iso.org/iso/catalogue_detail?csnumber=40874>`__  
+.. [#f1]  This property should be a URI if it is modelled in RDF.
+.. [#f2]  Questa proprietà dovrebbe essere un URI se è modellato in RDF.
+.. [#f3]  This property should be a URI if it is modelled in RDF.
+.. [#f4]  This property should be a URI if it is modelled in RDF.
+.. [#f5]  This property should be a URI if it is modelled in RDF.
+.. [#f6]  This property should be a URI if it is modelled in RDF.
 .. [#f7]  This property should be a URI if it is modelled in RDF.
-.. [#f8]   `https://www.w3.org/TR/vocab-dcat/#class-dataset <https://www.w3.org/TR/vocab-dcat/#class-dataset>`__  
-.. [#f9]  Questa proprietà dovrebbe essere un URI se è modellato in RDF.
+.. [#f8]  This property should be a URI if it is modelled in RDF
+.. [#f9]  This property should be a URI if it is modelled in RDF.
 .. [#f10]  This property should be a URI if it is modelled in RDF.
-.. [#f11]   `https://joinup.ec.europa.eu/asset/criterion_evidence_cv/description <https://joinup.ec.europa.eu/asset/criterion_evidence_cv/description>`__  
-.. [#f12]  This property should be a URI if it is modelled in RDF.
-.. [#f13]  This property should be a URI if it is modelled in RDF.
-.. [#f14]  This property should be a URI if it is modelled in RDF.
-.. [#f15]  This property should be a URI if it is modelled in RDF.
-.. [#f16]   `http://schema.org/openingHours <http://schema.org/openingHours>`__ 
-.. [#f17]   `http://schema.org/OpeningHoursSpecification <http://schema.org/OpeningHoursSpecification>`__  
-.. [#f18]  This property should be a URI if it is modelled in RDF.
-.. [#f19]  This property should be a URI if it is modelled in RDF.
-.. [#f20]   `http://publications.europa.eu/mdr/eli/ <http://publications.europa.eu/mdr/eli/>`__  
-.. [#f21]   `https://joinup.ec.europa.eu/asset/cpov/asset_release/all <https://joinup.ec.europa.eu/asset/cpov/asset_release/all>`__  
-.. [#f22]   `http://www.w3.org/TR/vocab-org/ <http://www.w3.org/TR/vocab-org/>`__  
-.. [#f23]   `http://publications.europa.eu/mdr/authority/atu/ <http://publications.europa.eu/mdr/authority/atu/>`__  
-.. [#f24]   `https://www.w3.org/TR/skos-reference/#concepts <https://www.w3.org/TR/skos-reference/#concepts>`__  
-.. [#f25]   `https://www.w3.org/TR/skos-reference/ <https://www.w3.org/TR/skos-reference/>`__  
-.. [#f26]   `https://www.w3.org/TR/skos-reference/#concepts <https://www.w3.org/TR/skos-reference/#concepts>`__  
-.. [#f27]   `https://www.w3.org/TR/skos-reference/ <https://www.w3.org/TR/skos-reference/>`__  
