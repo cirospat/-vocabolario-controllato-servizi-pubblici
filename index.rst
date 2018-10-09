@@ -7,6 +7,8 @@ D02.02 - Profilo di applicazione del vocabolario del servizio pubblico principal
 
 |REPLACE1|
 
+\ |LINK1|\ 
+
 
 |REPLACE2|
 
@@ -83,8 +85,11 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
 .. |REPLACE1| raw:: html
 
     <img src="https://ec.europa.eu/isa2/sites/isa/files/cpsv-ap.png" /><br>
-    
-    Fonte del documento
 .. |REPLACE2| raw:: html
 
     <strong><span style="background-color: #247a2e; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">CPSV-AP 2.2</span></strong>
+
+.. |LINK1| raw:: html
+
+    <a href="https://ec.europa.eu/isa2/solutions/core-public-service-vocabulary-application-profile-cpsv-ap_en" target="_blank">Fonte del documento</a>
+
