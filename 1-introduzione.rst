@@ -4,11 +4,11 @@
 1. Introduzione
 ***************
 
-L'originale CPSV-AP è stato preparato nel contesto dell'Azione 2016.29 - Accesso alle risorse informative degli Stati membri a livello europeo - Catalogo dei servizi\ [#F1]_\  del programma Interoperabilità della Commissione europea delle amministrazioni pubbliche (ISA) della Commissione europea
+L'originale CPSV-AP è stato preparato nel contesto dell'Azione 2016.29 - Accesso alle risorse informative degli Stati membri a livello europeo - Catalogo dei servizi\ [#F1]_\  del programma Interoperabilità della Commissione europea delle amministrazioni pubbliche \ |LINK1|\  [Commissione europea. Interoperabilità per le pubbliche amministrazioni europee (ISA)]. Il CPSV-AP è stato visto come un primo passo per la creazione di un modello per la descrizione di servizi pubblici relativi a eventi aziendali e di vita, per facilitare l'organizzazione di cataloghi di servizi orientati alle imprese e ai cittadini.
 
  
 
-Questo documento definisce un aggiornamento alla versione 2.1 del profilo di applicazione del vocabolario del servizio pubblico principale (CPSV-AP v2.2\ [#F3]_\ ).L'aggiornamento trova la sua motivazione nell'esperienza di implementazione della versione 2.1 di CPSV-AP da parte di diversi SM e stakeholder e le conseguenti richieste ricevute da loro in GitHub
+Questo documento definisce un aggiornamento alla versione 2.1 del profilo di applicazione del vocabolario del servizio pubblico principale (\ |LINK2|\ ).L'aggiornamento trova la sua motivazione nell'esperienza di implementazione della versione 2.1 di CPSV-AP da parte di diversi SM e stakeholder e le conseguenti richieste ricevute da loro in \ |LINK3|\  o durante \ |LINK4|\  e il seminario organizzato a \ |LINK5|\  .
 
 .. _h5325917564305c2c564cf654158:
 
@@ -28,7 +28,7 @@ Questo lavoro tiene anche conto delle attuali implementazioni di CPSV-AP da part
 1.2. Processo e metodologia
 ===========================
 
-Questo modello di dati comune è stato definito come un profilo di applicazione del Vocabolario di servizio pubblico ISA Core\ [#F7]_\  (d'ora in poi indicato come CPSV-AP). Un profilo di applicazione
+Questo modello di dati comune è stato definito come un profilo di applicazione del Vocabolario di servizio pubblico \ |LINK6|\  (d'ora in poi indicato come CPSV-AP). Un profilo di \ |LINK7|\  è una specifica che riutilizza i termini da uno o più standard di base, aggiungendo più specificità identificando gli elementi obbligatori, consigliati e facoltativi da utilizzare per una particolare applicazione, nonché le raccomandazioni per i vocabolari controllati da utilizzare.
 
  
 
@@ -39,9 +39,10 @@ L'identificazione e la gestione delle richieste di modifica seguono il "Processo
 Figura 1. Gestione richieste
 ============================
 
-\ |IMG1|\  
 
-CPSV-AP 2.1 è sviluppato sotto la responsabilità del programma ISA\ |STYLE0|\  della Commissione europea\ [#F9]_\  e le sedie del gruppo di lavoro. Il gruppo di lavoro è responsabile della definizione delle specifiche ed è costituito da:
+|REPLACE1|
+
+CPSV-AP 2.1 è sviluppato sotto la responsabilità del programma \ |LINK8|\  della Commissione europea e le sedie del gruppo di lavoro. Il gruppo di lavoro è responsabile della definizione delle specifiche ed è costituito da:
 
 * Membri della rete EUGO;
 
@@ -49,7 +50,7 @@ CPSV-AP 2.1 è sviluppato sotto la responsabilità del programma ISA\ |STYLE0|
 
 * Membri del gruppo di lavoro CPSV;
 
-* Rappresentanti del comitato ISA²;
+* Rappresentanti del comitato \ |LINK9|\ ;
 
 * Esperti in materia di governo e modellizzazione di eventi della vita e servizi pubblici; e
 
@@ -93,21 +94,48 @@ Questo documento è costituito dalle seguenti sezioni.
 .. bottom of content
 
 
-.. |STYLE0| replace:: :sup:`2`
+.. |REPLACE1| raw:: html
+
+    <img src=https://raw.githubusercontent.com/cirospat/-vocabolario-controllato-servizi-pubblici/master/static/figura1.PNG />
+
+.. |LINK1| raw:: html
+
+    <a href="http://ec.europa.eu/isa/index_en.htm " target="_blank">(ISA) della Commissione europea</a>
+
+.. |LINK2| raw:: html
+
+    <a href="https://joinup.ec.europa.eu/release/core-public-service-vocabulary-application-profile/22" target="_blank">CPSV-AP v2.2</a>
+
+.. |LINK3| raw:: html
+
+    <a href="https://github.com/catalogue-of-services-isa/CPSV-AP/issues" target="_blank">GitHub</a>
+
+.. |LINK4| raw:: html
+
+    <a href="https://joinup.ec.europa.eu/event/catalogue-services-webinar-reuse-and-implementation-cpsv-ap-19-march-2018" target="_blank">webinar</a>
+
+.. |LINK5| raw:: html
+
+    <a href="https://joinup.ec.europa.eu/event/catalogue-services-workshop-15-june-back-back-semic-2018" target="_blank">Sofia</a>
+
+.. |LINK6| raw:: html
+
+    <a href="https://joinup.ec.europa.eu/asset/core_public_service/description" target="_blank">ISA Core</a>
+
+.. |LINK7| raw:: html
+
+    <a href="http://dublincore.org/documents/2001/04/12/usageguide/glossary.shtml#A" target="_blank">applicazione</a>
+
+.. |LINK8| raw:: html
+
+    <a href="https://ec.europa.eu/isa2/home_en" target="_blank">ISA</a>
+
+.. |LINK9| raw:: html
+
+    <a href="https://ec.europa.eu/isa2/home_en" target="_blank">ISA</a>
+
 
 
 .. rubric:: Footnotes
 
 .. [#f1]  Commissione europea. Interoperabilità per le pubbliche amministrazioni europee (ISA). Accesso alle risorse informative degli Stati membri a livello europeo.   `http://ec.europa.eu/isa/actions/01-trusted-information-exchange/1-3action_en.htm <http://ec.europa.eu/isa/actions/01-trusted-information-exchange/1-3action_en.htm>`__  
-.. [#f2]   Commissione europea. Interoperabilità per le pubbliche amministrazioni europee (ISA).  `http://ec.europa.eu/isa/index_en.htm <http://ec.europa.eu/isa/index_en.htm>`__  
-.. [#f3]   `https://joinup.ec.europa.eu/release/core-public-service-vocabulary-application-profile/22 <https://joinup.ec.europa.eu/release/core-public-service-vocabulary-application-profile/22>`__  
-.. [#f4]   `https://github.com/catalogue-of-services-isa/CPSV-AP/issues <https://github.com/catalogue-of-services-isa/CPSV-AP/issues>`__  
-.. [#f5]   `https://joinup.ec.europa.eu/event/catalogue-services-webinar-reuse-and-implementation-cpsv-ap-19-march-2018 <https://joinup.ec.europa.eu/event/catalogue-services-webinar-reuse-and-implementation-cpsv-ap-19-march-2018>`__  e   `https://joinup.ec.europa.eu/event/catalogue-services-webinar-reuse-and-implementation-cpsv-ap-23-april-2018 <https://joinup.ec.europa.eu/event/catalogue-services-webinar-reuse-and-implementation-cpsv-ap-23-april-2018>`__    
-.. [#f6]   `https://joinup.ec.europa.eu/event/catalogue-services-workshop-15-june-back-back-semic-2018 <https://joinup.ec.europa.eu/event/catalogue-services-workshop-15-june-back-back-semic-2018>`__  
-.. [#f7]   `https://joinup.ec.europa.eu/asset/core_public_service/description <https://joinup.ec.europa.eu/asset/core_public_service/description>`__  
-.. [#f8]   `http://dublincore.org/documents/2001/04/12/usageguide/glossary.shtml#A <http://dublincore.org/documents/2001/04/12/usageguide/glossary.shtml#A>`__  
-.. [#f9]  https://ec.europa.eu/isa2/home_en
-
-.. |IMG1| image:: static/1-introduzione_1.png
-   :height: 256 px
-   :width: 601 px
