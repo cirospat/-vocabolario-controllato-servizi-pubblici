@@ -222,21 +222,21 @@ In particolare per la lista 1\ |STYLE0|\  e 2\ |STYLE1|\  livello eventi azien
 .. [#f3]  http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4
 .. [#f4]  http://publications.europa.eu/mdr/authority/language/index.html
 .. [#f5]  http://ec.europa.eu/competition/mergers/cases/index/nace_all.html
-.. [#f6]  http://publications.europa.eu/mdr/authority/continent/index.html
-.. [#f7]  http://publications.europa.eu/mdr/authority/country/
-.. [#f8]  http://publications.europa.eu/mdr/authority/place/index.html
-.. [#f9]  http://sws.geonames.org/
-.. [#f10]  http://purl.org/adms/status/
-.. [#f11]  http://publications.europa.eu/mdr/authority/language/index.html
+.. [#f6]   `http://publications.europa.eu/mdr/authority/continent/index.html <http://publications.europa.eu/mdr/authority/continent/index.html>`__ 
+.. [#f7]   `http://publications.europa.eu/mdr/authority/country/ <http://publications.europa.eu/mdr/authority/country/>`__ 
+.. [#f8]   `http://publications.europa.eu/mdr/authority/place/index.html <http://publications.europa.eu/mdr/authority/place/index.html>`__ 
+.. [#f9]   `http://sws.geonames.org/ <http://sws.geonames.org/>`__ 
+.. [#f10]   `http://purl.org/adms/status/ <http://purl.org/adms/status/>`__ 
+.. [#f11]   `http://publications.europa.eu/mdr/authority/language/index.html <http://publications.europa.eu/mdr/authority/language/index.html>`__ 
 .. [#f12]  Una descrizione per ciascun tipo di output è stata inclusa in " Descrizione dei tipi di output ".
-.. [#f13]  http://publications.europa.eu/mdr/authority/currency/index.html
-.. [#f14]  http://publications.europa.eu/mdr/authority/language/index.html
-.. [#f15]   http://publications.europa.eu/mdr/authority/language/index.html
-.. [#f16]  http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52012XG1026(01)
-.. [#f17]  http://eurovoc.europa.eu/drupal/?q=download/subject_oriented&cl=en
+.. [#f13]   `http://publications.europa.eu/mdr/authority/currency/index.html <http://publications.europa.eu/mdr/authority/currency/index.html>`__ 
+.. [#f14]   `http://publications.europa.eu/mdr/authority/language/index.html <http://publications.europa.eu/mdr/authority/language/index.html>`__ 
+.. [#f15]    `http://publications.europa.eu/mdr/authority/language/index.html <http://publications.europa.eu/mdr/authority/language/index.html>`__ 
+.. [#f16]   `http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52012XG1026(01) <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52012XG1026(01)>`__ 
+.. [#f17]   `http://eurovoc.europa.eu/drupal/?q=download/subject_oriented&cl=en <http://eurovoc.europa.eu/drupal/?q=download/subject_oriented&cl=en>`__ 
 .. [#f18]   `http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NUTS_22&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC <http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NUTS_22&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC>`__ 
-.. [#f19]  http://publications.europa.eu/mdr/authority/resource-type/index.html
-.. [#f20]  http://publications.europa.eu/mdr/authority/continent/index.html
-.. [#f21]  http://publications.europa.eu/mdr/authority/country/
-.. [#f22]  http://publications.europa.eu/mdr/authority/place/index.html
-.. [#f23]  http://sws.geonames.org/
+.. [#f19]   `http://publications.europa.eu/mdr/authority/resource-type/index.html <http://publications.europa.eu/mdr/authority/resource-type/index.html>`__ 
+.. [#f20]   `http://publications.europa.eu/mdr/authority/continent/index.html <http://publications.europa.eu/mdr/authority/continent/index.html>`__ 
+.. [#f21]   `http://publications.europa.eu/mdr/authority/country/ <http://publications.europa.eu/mdr/authority/country/>`__ 
+.. [#f22]   `http://publications.europa.eu/mdr/authority/place/index.html <http://publications.europa.eu/mdr/authority/place/index.html>`__ 
+.. [#f23]   `http://sws.geonames.org/ <http://sws.geonames.org/>`__ 
