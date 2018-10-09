@@ -45,11 +45,11 @@ Questo rapporto è stato preparato per il programma ISA² da: ``Servizi UE Pw
 
  
 
-* Fonte web della documentazione in lingua inglese: \ |LINK2|\   
+* \ |LINK2|\  in lingua inglese. 
 
-* Licenza assegnata al documento: \ |LINK3|\  (attribuzione)
+* Licenza assegnata al documento: \ |LINK3|\  (attribuzione).
 
-* Nome file del documento: \ |STYLE0|\ , disponibile anche sul \ |LINK4|\ 
+* Nome file del documento: \ |STYLE0|\ , disponibile anche sul \ |LINK4|\ .
 
 .. _h53a802e38134e6e105b625933255059:
 
@@ -126,7 +126,7 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
 
 .. |LINK2| raw:: html
 
-    <a href="https://ec.europa.eu/isa2/solutions/core-public-service-vocabulary-application-profile-cpsv-ap_en" target="_blank">https://ec.europa.eu/isa2/solutions/core-public-service-vocabulary-application-profile-cpsv-ap_en</a>
+    <a href="https://ec.europa.eu/isa2/solutions/core-public-service-vocabulary-application-profile-cpsv-ap_en" target="_blank">Fonte web della documentazione</a>
 
 .. |LINK3| raw:: html
 
