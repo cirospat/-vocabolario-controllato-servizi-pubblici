@@ -2354,7 +2354,7 @@ La proprietà Member , come definita in SKOS, consente di indicare i concett
 
 .. |REPLACE1| raw:: html
 
-    <img src=https://raw.githubusercontent.com/cirospat/-vocabolario-controllato-servizi-pubblici/master/static/CPSV-AP_Specification%20v2.2.png />
+    <img src="https://raw.githubusercontent.com/cirospat/-vocabolario-controllato-servizi-pubblici/master/static/CPSV-AP_Specification%20v2.2.png" />
 
 .. |LINK1| raw:: html
 
