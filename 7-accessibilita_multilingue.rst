@@ -12,16 +12,23 @@ CPSV-AP può funzionare in qualsiasi lingua come:
 
 * La specifica incoraggia fortemente l'uso di URI come identificatori e tutti gli URI sono "stringhe stupide". Sebbene facciano chiaramente uso di parole inglesi, non trasmettono quelle parole - ciò è fatto dalle etichette leggibili dall'uomo che possono essere multilingue.
 
-* L'acronimo URI è utilizzato in tutto il documento a causa della diffusa familiarità. Tuttavia, gli IRI (Internationalized Resource Identifiers) sono ugualmente utilizzabili e possono utilizzare qualsiasi carattere in qualsiasi script\ [#F1]_\ .
+* L'acronimo URI è utilizzato in tutto il documento a causa della diffusa familiarità. Tuttavia, gli IRI (Internationalized Resource Identifiers) sono ugualmente utilizzabili e possono utilizzare qualsiasi carattere in qualsiasi \ |LINK1|\ .
 
-* Le traduzioni delle etichette usate nei vari termini possono essere facilmente aggiunte allo schema (si prega di contattare il gruppo di lavoro se si può aiutare con questo). Il gruppo di lavoro CPSV\ [#F2]_\  ha già fornito etichette e descrizioni multilingue per classi e proprietà
+* Le traduzioni delle etichette usate nei vari termini possono essere facilmente aggiunte allo schema (si prega di contattare il gruppo di lavoro se si può aiutare con questo). Il gruppo di lavoro \ |LINK2|\ ha già fornito etichette e descrizioni multilingue per \ |LINK3|\ .
 
 
 .. bottom of content
 
 
-.. rubric:: Footnotes
+.. |LINK1| raw:: html
 
-.. [#f1]  http://www.ietf.org/rfc/rfc3987.txt
-.. [#f2]  https://joinup.ec.europa.eu/node/52600/
-.. [#f3]  https://docs.google.com/spreadsheet/ccc?key=0Arqf55JwcBx4dGpvVG5BcTVqaUNKTEFJX09xcXpaRUE&usp=drive_web#gid=3
+    <a href="http://www.ietf.org/rfc/rfc3987.txt" target="_blank">script</a>
+
+.. |LINK2| raw:: html
+
+    <a href="https://joinup.ec.europa.eu/node/52600/" target="_blank">CPSV</a>
+
+.. |LINK3| raw:: html
+
+    <a href="https://docs.google.com/spreadsheet/ccc?key=0Arqf55JwcBx4dGpvVG5BcTVqaUNKTEFJX09xcXpaRUE&usp=drive_web#gid=3" target="_blank">classi e proprietà</a>
+
