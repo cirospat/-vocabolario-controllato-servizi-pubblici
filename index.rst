@@ -13,6 +13,10 @@ D02.02 - Profilo di applicazione del vocabolario del servizio pubblico principal
 
 |REPLACE3|
 
+Guarda l'immagine ingrandita \ |LINK1|\ 
+
+|
+
 .. _h209127b794c17173062a12146b3258:
 
 Document Metadata
@@ -41,9 +45,9 @@ Questo rapporto è stato preparato per il programma ISA² da: Servizi UE PwC
 
  
 
-* Fonte web del documento in lingua inglese: \ |LINK1|\   
+* Fonte web del documento in lingua inglese: \ |LINK2|\   
 
-* Licenza assegnata al documento: \ |LINK2|\  (attribuzione)
+* Licenza assegnata al documento: \ |LINK3|\  (attribuzione)
 
 * Nome file del documento: SC2015DI07446_D02.02_CPSV-AP-2.2_v1.00
 
@@ -93,9 +97,9 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
 
 ..  Note:: 
 
-    Questa pubblicazione su Read the Docs è una traduzione in italiano (attualmente in fase di implementazione) del documento denominato \ |LINK3|\ .
+    Questa pubblicazione su Read the Docs è una traduzione in italiano (attualmente in fase di implementazione) del documento denominato \ |LINK4|\ .
     
-    Creazione del documento su Read the Docs a cura di \ |LINK4|\ .
+    Creazione del documento su Read the Docs a cura di \ |LINK5|\ .
     
     Da un idea e con con la collaborazione di Francesca Gleria.
 
@@ -111,21 +115,25 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
     <strong><span style="background-color: #247a2e; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">CPSV-AP 2.2</span></strong>
 .. |REPLACE3| raw:: html
 
-    <img src="https://raw.githubusercontent.com/cirospat/-vocabolario-controllato-servizi-pubblici/master/static/CPSV-AP_Specification%20v2.2.png" /><br>
+    <img src="https://raw.githubusercontent.com/cirospat/-vocabolario-controllato-servizi-pubblici/master/static/CPSV-AP_Specification%20v2.2.png" /><br> 
 
 .. |LINK1| raw:: html
 
-    <a href="https://ec.europa.eu/isa2/solutions/core-public-service-vocabulary-application-profile-cpsv-ap_en" target="_blank">https://ec.europa.eu/isa2/solutions/core-public-service-vocabulary-application-profile-cpsv-ap_en</a>
+    <a href="https://raw.githubusercontent.com/cirospat/-vocabolario-controllato-servizi-pubblici/master/static/CPSV-AP_Specification%20v2.2.png" target="_blank">qui</a>
 
 .. |LINK2| raw:: html
 
-    <a href="https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11" target="_blank">ISA Open Metadata Licence v1.1</a>
+    <a href="https://ec.europa.eu/isa2/solutions/core-public-service-vocabulary-application-profile-cpsv-ap_en" target="_blank">https://ec.europa.eu/isa2/solutions/core-public-service-vocabulary-application-profile-cpsv-ap_en</a>
 
 .. |LINK3| raw:: html
 
-    <a href="https://joinup.ec.europa.eu/solution/core-public-service-vocabulary-application-profile/releases" target="_blank">Core Public Service Vocabulary Application Profile 2.2</a>
+    <a href="https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11" target="_blank">ISA Open Metadata Licence v1.1</a>
 
 .. |LINK4| raw:: html
+
+    <a href="https://joinup.ec.europa.eu/solution/core-public-service-vocabulary-application-profile/releases" target="_blank">Core Public Service Vocabulary Application Profile 2.2</a>
+
+.. |LINK5| raw:: html
 
     <a href="https://cirospat.readthedocs.io" target="_blank">Ciro Spataro</a>
 
