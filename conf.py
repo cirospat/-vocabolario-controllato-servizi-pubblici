@@ -13,8 +13,8 @@ __version__ = '1.0'
 
 source_suffix = '.rst'
 master_doc = 'index'
-project = 'schema tipo RTD'
-copyright = 'change-me'
+project = 'Vocabolario controllato sui servizi pubblici (D02.02)'
+copyright = 'CC BY SA'
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
