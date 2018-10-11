@@ -93,15 +93,6 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
     allegato6
 
 
-.. toctree::  
-    :maxdepth: 3
-    :caption: Extra
-
-    regolamento-ue-sportello-digitale-unico
-
---------
-
-
 ..  Note:: 
 
     Questa pubblicazione su Read the Docs è una traduzione in italiano (attualmente in fase di implementazione) del documento denominato \ |LINK5|\ .
@@ -109,6 +100,15 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
     Creazione del documento su Read the Docs a cura di \ |LINK6|\ .
     
     Da un idea e con con la collaborazione di Francesca Gleria e Gabriele Francescotto.
+
+
+.. toctree::  
+    :maxdepth: 3
+    :caption: Extra
+
+    regolamento-ue-sportello-digitale-unico
+
+--------
 
 
 .. bottom of content
