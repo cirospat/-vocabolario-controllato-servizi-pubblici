@@ -102,6 +102,9 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
     Da un idea e con con la collaborazione di Francesca Gleria e Gabriele Francescotto.
 
 
+|REPLACE4|
+
+
 .. toctree::  
     :maxdepth: 3
     :caption: Extra
@@ -126,6 +129,9 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
 .. |REPLACE3| raw:: html
 
     <img src="https://raw.githubusercontent.com/cirospat/-vocabolario-controllato-servizi-pubblici/master/static/CPSV-AP_Specification%20v2.2.png" /><br> 
+.. |REPLACE4| raw:: html
+
+    <strong><span style="background-color: #245a7a; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">Regolamento UE sullo sportello digitale unico</span></strong>
 
 .. |LINK1| raw:: html
 
