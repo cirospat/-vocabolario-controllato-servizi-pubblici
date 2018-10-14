@@ -122,7 +122,7 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
 
 .. |REPLACE1| raw:: html
 
-    <img src="https://ec.europa.eu/isa2/sites/isa/files/cpsv-ap.png" /><br>
+    <img src="https://raw.githubusercontent.com/cirospat/-vocabolario-controllato-servizi-pubblici/master/static/logo.PNG" /><br>
 .. |REPLACE2| raw:: html
 
     <strong><span style="background-color: #247a2e; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">CPSV-AP 2.2</span></strong>
