@@ -50,7 +50,7 @@ Questo rapporto è stato preparato per il programma ISA² da: ``Servizi UE Pw
     
     * Licenza assegnata al documento: \ |LINK3|\  (attribuzione).
     
-    * Nome file del documento in lingua inglese: \ |STYLE0|\ , disponibile anche sul \ |LINK4|\ .
+    * Nome file del documento in lingua inglese: \`\`\ |STYLE0|\ \`\`, disponibile anche sul \ |LINK4|\ .
 
 .. _h53a802e38134e6e105b625933255059:
 
