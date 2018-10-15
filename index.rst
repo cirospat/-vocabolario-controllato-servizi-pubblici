@@ -43,13 +43,14 @@ Document Metadata
 
 Questo rapporto è stato preparato per il programma ISA² da: ``Servizi UE PwC``
 
- 
 
-* \ |LINK2|\  in lingua inglese. 
+.. admonition:: Fonte e licenza
 
-* Licenza assegnata al documento: \ |LINK3|\  (attribuzione).
-
-* Nome file del documento: \ |STYLE0|\ , disponibile anche sul \ |LINK4|\ .
+    * \ |LINK2|\  in lingua inglese. 
+    
+    * Licenza assegnata al documento: \ |LINK3|\  (attribuzione).
+    
+    * Nome file del documento: \ |STYLE0|\ , disponibile anche sul \ |LINK4|\ .
 
 .. _h53a802e38134e6e105b625933255059:
 
