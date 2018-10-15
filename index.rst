@@ -50,7 +50,7 @@ Questo rapporto è stato preparato per il programma ISA² da: ``Servizi UE Pw
     
     * Licenza assegnata al documento: \ |LINK3|\  (attribuzione).
     
-    * Nome file del documento in lingua inglese: \`\`\ |STYLE0|\ \`\`, disponibile anche sul \ |LINK4|\ .
+    * Nome file del documento in lingua inglese: ``SC2015DI07446_D02.02_CPSV-AP-2.2_v1.00``, disponibile anche sul \ |LINK4|\ .
 
 .. _h53a802e38134e6e105b625933255059:
 
@@ -116,9 +116,6 @@ L'autore ha prestato la massima attenzione per assicurarsi di aver ottenuto, lad
 
 
 .. bottom of content
-
-
-.. |STYLE0| replace:: **SC2015DI07446_D02.02_CPSV-AP-2.2_v1.00**
 
 
 .. |REPLACE1| raw:: html
