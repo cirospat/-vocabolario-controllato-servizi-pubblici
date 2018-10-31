@@ -48,10 +48,10 @@ Un portale digitale unico paneuropeo, che associa descrizioni armonizzate di eve
 
 L'utilizzo di un modello di dati comune come CPSV-AP per la descrizione dei servizi pubblici consente lo scambio flessibile e l'integrazione delle descrizioni dei servizi tra le autorità nazionali / regionali e gli sportelli unici paneuropei. In questo modo, il modello di dati comune funge da ponte, un linguaggio comune che consente di mappare tutti i diversi modi di descrivere i servizi pubblici e gli eventi aziendali e di vita per raggrupparli su un'unica base comune.
 
-.. _h347d31667294e7b792f64a3f7684a:
+.. _h79743c605211e322324475748617c4:
 
-2.3. Usa caso 3: gestione dei portafogli di servizi pubblici
-============================================================
+2.3. Caso d'uso 3: gestione dei portafogli di servizi pubblici
+==============================================================
 
 Nella maggior parte dei paesi, la proprietà e la gestione dei servizi pubblici è suddivisa tra diverse amministrazioni pubbliche che portano a diversi modi di gestire il loro ciclo di vita. Ciò rende difficile avere una visione completa dei servizi pubblici offerti nel contesto di uno Stato membro e avere un approccio olistico per la loro gestione e il modo in cui i servizi pubblici sono raggruppati in attività e eventi della vita.
 
