@@ -1,8 +1,8 @@
 
-.. _h37562677d2d265b121d315261695617:
+.. _h6c42102574405f3512255f6407f5423:
 
-4.0 Vocabolari controllati consigliati
-######################################
+4. Vocabolari controllati consigliati
+#####################################
 
 Al fine di facilitare lo scambio di informazioni sui servizi pubblici raggruppati in eventi aziendali o eventi della vita, i vocabolari controllati hanno lo scopo di armonizzare i valori possibili per determinate proprietà. Ciò migliora l'interoperabilità delle descrizioni e facilita l'integrazione di informazioni provenienti da fonti diverse. Per quanto riguarda il modello di dominio CPSV-AP descritto nella sezione 3, le organizzazioni pubbliche possono mappare i valori dei vocabolari controllati che usano per descrivere i servizi pubblici nella loro SM, ai valori specifici dei vocabolari controllati suggeriti di seguito.
 
