@@ -42,7 +42,7 @@ Figura 1. Gestione richieste
 
 |REPLACE1|
 
-CPSV-AP 2.1 è stato sviluppato sotto la responsabilità del programma \ |LINK8|\  della Commissione europea e le sedie del gruppo di lavoro. Il gruppo di lavoro è responsabile della definizione delle specifiche ed è costituito da:
+CPSV-AP 2.1 è stato sviluppato sotto la responsabilità del programma \ |LINK8|\  della Commissione europea e i soggetti del gruppo di lavoro. Il gruppo di lavoro è responsabile della definizione delle specifiche ed è costituito da:
 
 * Membri della rete EUGO;
 
