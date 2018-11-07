@@ -8,18 +8,18 @@ L'originale CPSV-AP è stato preparato nel contesto dell'Azione 2016.29 - Access
 
  
 
-Questo documento definisce un aggiornamento alla versione 2.1 del profilo di applicazione del vocabolario del servizio pubblico principale (\ |LINK2|\ ).L'aggiornamento trova la sua motivazione nell'esperienza di implementazione della versione 2.1 di CPSV-AP da parte di diversi SM e stakeholder e le conseguenti richieste ricevute da loro in \ |LINK3|\  o durante \ |LINK4|\  e il seminario organizzato a \ |LINK5|\  .
+Questo documento definisce un aggiornamento della versione 2.1 del profilo applicativo del vocabolario del servizio pubblico principale (\ |LINK2|\ ). L'aggiornamento è motivato dall’esperienza di implementazione della versione 2.1 del CPSV-AP da parte di diversi SM e stakeholder e dalle conseguenti richieste ricevute in \ |LINK3|\  o durante \ |LINK4|\  e durante il seminario organizzato a \ |LINK5|\  .
 
 .. _h5325917564305c2c564cf654158:
 
 1.1. Portata e obiettivi
 ========================
 
-Dalla pubblicazione del CPSV-AP, diversi Stati membri e progetti europei hanno iniziato a riutilizzare ed estendere il modello di dati per le proprie esigenze. L'utilizzo di questo modello di dati in contesti nazionali o regionali ha portato all'identificazione di potenziali aree di miglioramento ed estensione. Nell'impegno a rispondere al feedback ricevuto, versione 2. 2 sta aggiornando la versione precedente delle specifiche allineandola con ELI, aggiornando i modi per classificare i servizi pubblici e le proprietà corrispondenti e correggendo alcuni bug.
+Dalla pubblicazione del CPSV-AP, diversi Stati membri e progetti europei hanno iniziato a utilizzare ed estendere il modello dati in base alle proprie esigenze. L'utilizzo di questo modello dati in contesti nazionali o regionali ha portato all'identificazione di potenziali aree di miglioramento ed estensione. Grazie al feedback ricevuto, la versione 2.2 ha aggiornato la precendente versione delle specifiche allineandola con ELI, aggiornandola classificazione dei servizi pubblici e le proprietà corrispondenti e correggendo alcuni bug.
 
  
 
-Questo lavoro tiene anche conto delle attuali implementazioni di CPSV-AP da parte di entità diverse, cercando di mantenere le specifiche il più stabili possibile.
+Questo lavoro tiene anche conto delle implementazioni di CPSV-AP da parte di entità diverse, cercando di mantenere le specifiche il più stabili possibile.
 
  
 
@@ -28,11 +28,11 @@ Questo lavoro tiene anche conto delle attuali implementazioni di CPSV-AP da part
 1.2. Processo e metodologia
 ===========================
 
-Questo modello di dati comune è stato definito come un profilo di applicazione del Vocabolario di servizio pubblico \ |LINK6|\  (d'ora in poi indicato come CPSV-AP). Un profilo di \ |LINK7|\  è una specifica che riutilizza i termini da uno o più standard di base, aggiungendo più specificità identificando gli elementi obbligatori, consigliati e facoltativi da utilizzare per una particolare applicazione, nonché le raccomandazioni per i vocabolari controllati da utilizzare.
+Questo modello dati comune è stato definito come profilo applicativo del Vocabolario di servizio pubblico \ |LINK6|\  (d'ora in poi indicato come CPSV-AP). Un \ |LINK7|\  è una specifica che riutilizza i termini da uno o più standard di base, aggiungendo più specificità identificando gli elementi obbligatori, consigliati e facoltativi da utilizzare per una particolare applicazione, nonché le raccomandazioni per i vocabolari controllati da utilizzare.
 
  
 
-L'identificazione e la gestione delle richieste di modifica seguono il "Processo di rilascio e pubblicazione della gestione delle modifiche per le specifiche dei metadati strutturali sviluppati dal programma ISA". In particolare questo deliverable copre la gestione delle richieste del processo di gestione delle modifiche.
+L'identificazione e la gestione delle richieste di modifica seguono il "Processo di rilascio e pubblicazione della gestione delle modifiche per le specifiche dei metadati strutturali sviluppati dal programma ISA". In particolare questo deliverable copre la gestione delle richieste delle modifiche.
 
 .. _h386873735a7c773d1f1f4793d4c2e:
 
@@ -42,7 +42,7 @@ Figura 1. Gestione richieste
 
 |REPLACE1|
 
-CPSV-AP 2.1 è sviluppato sotto la responsabilità del programma \ |LINK8|\  della Commissione europea e le sedie del gruppo di lavoro. Il gruppo di lavoro è responsabile della definizione delle specifiche ed è costituito da:
+CPSV-AP 2.1 è stato sviluppato sotto la responsabilità del programma \ |LINK8|\  della Commissione europea e le sedie del gruppo di lavoro. Il gruppo di lavoro è responsabile della definizione delle specifiche ed è costituito da:
 
 * Membri della rete EUGO;
 
@@ -64,24 +64,24 @@ Naturalmente, la specifica del CPSV-AP 2.2 è iniziata con la versione origina
 
  
 
-In generale, il feedback ricevuto è stato positivo. Naturalmente, implementarlo nel contesto nazionale implicava l'esigenza di adattare il modello al contesto corrispondente. Nella maggior parte dei casi, il CPSV (-AP) è stato esteso con ulteriori classi, proprietà, vocabolari controllati ...
+In generale, il feedback ricevuto è stato positivo. Naturalmente, implementarlo nei contesti nazionali implica l'esigenza di adattare il modello ai contesti corrispondenti. Nella maggior parte di queste implementazioni, il CPSV (-AP) è stato esteso con ulteriori classi, proprietà, vocabolari controllati ...
 
 .. _h512b605c7d2579263d7d3e307052654e:
 
 1.3. Struttura di questo documento
 ==================================
 
-Questo documento è costituito dalle seguenti sezioni.
+Questo documento è costituito dalle seguenti sezioni:
 
 * La Sezione 2 definisce i principali casi d'uso che guidano le specifiche del Profilo dell'applicazione;
 
 * Le classi e le proprietà definite per il profilo dell'applicazione sono identificate nella sezione 3;
 
-* Nella sezione 4 , i vocabolari controllati sono proposti per l'utilizzo come set di valori per un numero di proprietà;
+* Nella sezione 4, i vocabolari controllati sono proposti per l'utilizzo come set di valori per un numero di proprietà;
 
 * Un esempio, che aiuta a mostrare come l'APC CPSV può essere utilizzato nella pratica per descrivere un servizio pubblico, è descritto nella sezione 5;
 
-* La sezione 6 contiene la dichiarazione di conformità per questo profilo di applicazione;
+* La sezione 6 contiene la dichiarazione di conformità per questo profilo applicativo;
 
 * Accessibilità e questioni multilingue sono trattate nella sezione 7;
 
@@ -124,7 +124,7 @@ Questo documento è costituito dalle seguenti sezioni.
 
 .. |LINK7| raw:: html
 
-    <a href="http://dublincore.org/documents/2001/04/12/usageguide/glossary.shtml#A" target="_blank">applicazione</a>
+    <a href="http://dublincore.org/documents/2001/04/12/usageguide/glossary.shtml#A" target="_blank">profilo applicativo</a>
 
 .. |LINK8| raw:: html
 
