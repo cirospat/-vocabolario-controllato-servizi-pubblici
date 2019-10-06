@@ -15,6 +15,9 @@ Regolamento del Parlamento Europeo e del Consiglio che istituisce uno sportello 
 |REPLACE1|
 
 
+|REPLACE2|
+
+
 .. toctree::  
     :maxdepth: 3
     :caption: indice del Regolamento UE
@@ -1088,6 +1091,10 @@ Elenco dei servizi di assistenza e risoluzione dei problemi di cui all'articolo 
 .. |REPLACE1| raw:: html
 
     <img src="https://www.consilium.europa.eu/images/logo.png" />
+.. |REPLACE2| raw:: html
+
+    <iframe width="100%" height="500" src="https://www.youtube.com/embed/Znkoz0-P3sc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <span class="footer_small">Istituzione e gestione di uno sportello digitale unico per offrire ai cittadini e alle imprese un facile accesso a informazioni di alta qualità, a procedure efficienti e a servizi di assistenza e di risoluzione dei problemi efficaci in relazione alle norme dell'Unione e nazionali applicabili ai cittadini e alle imprese che esercitano o che intendono esercitare i loro diritti derivanti dal diritto dell'Unione nell'ambito del mercato interno ai sensi dell'articolo 26, paragrafo 2, TFUE.</span>
 
 .. |LINK1| raw:: html
 
